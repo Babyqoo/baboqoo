@@ -19,10 +19,10 @@ package core
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/consensus"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/consensus"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 // ChainContext supports retrieving headers and consensus parameters from the

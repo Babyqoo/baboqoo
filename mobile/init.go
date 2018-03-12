@@ -22,7 +22,7 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 func init() {

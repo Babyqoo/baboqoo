@@ -19,7 +19,7 @@ package state
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 type journalEntry interface {

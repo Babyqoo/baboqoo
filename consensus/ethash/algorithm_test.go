@@ -25,9 +25,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // Tests whether the dataset size calculator works correctly by cross checking the

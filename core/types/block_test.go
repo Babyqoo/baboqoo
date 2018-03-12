@@ -23,8 +23,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // from bcValidBlockTest.json, "SimpleTx"

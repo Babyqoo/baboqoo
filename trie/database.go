@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // secureKeyPrefix is the database key prefix used to store trie node preimages.

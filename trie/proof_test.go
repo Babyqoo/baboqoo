@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/ethdb"
 )
 
 func init() {

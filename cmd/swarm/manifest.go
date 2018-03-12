@@ -24,9 +24,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/swarm/api"
-	swarm "github.com/baboqoo/baboqoo/swarm/api/client"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/swarm/api"
+	swarm "github.com/babyqoo/baboqoo/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

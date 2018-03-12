@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 func initDbStore(t *testing.T) *DbStore {

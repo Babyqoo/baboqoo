@@ -25,10 +25,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // makeGenesis creates a new genesis struct based on some user input.

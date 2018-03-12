@@ -26,8 +26,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // faucetDockerfile is the Dockerfile required to build an faucet container to

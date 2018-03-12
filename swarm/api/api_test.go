@@ -24,9 +24,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 func testApi(t *testing.T, f func(*Api)) {

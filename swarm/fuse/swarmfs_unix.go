@@ -29,9 +29,9 @@ import (
 
 	"bazil.org/fuse"
 	"bazil.org/fuse/fs"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/api"
 )
 
 var (

@@ -22,9 +22,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/common/math"
 )
 
 var (

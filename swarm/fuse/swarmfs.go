@@ -17,7 +17,7 @@
 package fuse
 
 import (
-	"github.com/baboqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/swarm/api"
 	"sync"
 	"time"
 )

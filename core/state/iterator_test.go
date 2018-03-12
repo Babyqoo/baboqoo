@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/ethdb"
 )
 
 // Tests that the node iterator indeed walks over the entire database contents.

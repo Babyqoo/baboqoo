@@ -22,11 +22,11 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/internal/ethapi"
-	"github.com/baboqoo/baboqoo/params"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/internal/ethapi"
+	"github.com/babyqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 var maxPrice = big.NewInt(500 * params.Shannon)

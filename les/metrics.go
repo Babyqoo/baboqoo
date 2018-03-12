@@ -17,8 +17,8 @@
 package les
 
 import (
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/p2p"
 )
 
 var (

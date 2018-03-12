@@ -24,8 +24,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/common/compiler"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/common/compiler"
 )
 
 var (

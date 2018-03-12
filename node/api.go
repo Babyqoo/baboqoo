@@ -22,12 +22,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // PrivateAdminAPI is the collection of administrative API methods exposed only

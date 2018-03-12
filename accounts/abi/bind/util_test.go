@@ -22,12 +22,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/accounts/abi/bind/backends"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind/backends"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 var testKey, _ = crypto.HexToECDSA("b71c71a67e1177ad4e901695e1b4b9ee17ae16c6668d313eac2f96dbcda3f291")

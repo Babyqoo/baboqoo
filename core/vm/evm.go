@@ -21,9 +21,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

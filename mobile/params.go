@@ -21,9 +21,9 @@ package gbbq
 import (
 	"encoding/json"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/p2p/discv5"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/p2p/discv5"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // MainnetGenesis returns the JSON spec to use for the main Baboqoo network. It

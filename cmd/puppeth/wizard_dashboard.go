@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // deployDashboard queries the user for various input on deploying a web-service

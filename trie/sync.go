@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/ethdb"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

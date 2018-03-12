@@ -24,11 +24,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/simulations/adapters"
 )
 
 var dialBanTimeout = 200 * time.Millisecond

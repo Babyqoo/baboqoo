@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/event"
 )
 
 func ExampleNewSubscription() {

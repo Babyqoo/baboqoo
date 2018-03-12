@@ -17,9 +17,9 @@
 package runtime
 
 import (
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 func NewEnv(cfg *Config) *vm.EVM {

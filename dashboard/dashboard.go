@@ -35,11 +35,11 @@ import (
 	"time"
 
 	"github.com/elastic/gosigar"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/params"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/rpc"
 	"golang.org/x/net/websocket"
 )
 

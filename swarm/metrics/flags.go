@@ -19,10 +19,10 @@ package metrics
 import (
 	"time"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/log"
-	gbbqmetrics "github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/metrics/influxdb"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/log"
+	gbbqmetrics "github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/metrics/influxdb"
 	"gopkg.in/urfave/cli.v1"
 )
 

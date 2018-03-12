@@ -24,10 +24,10 @@ import (
 	"math/big"
 	"sync/atomic"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 //go:generate gencodec -type txdata -field-override txdataMarshaling -out gen_tx_json.go

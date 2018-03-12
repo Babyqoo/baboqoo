@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 type keyStorePlain struct {

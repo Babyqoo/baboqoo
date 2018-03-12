@@ -22,9 +22,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

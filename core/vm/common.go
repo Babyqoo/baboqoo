@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/math"
 )
 
 // calculates the memory size required for a step

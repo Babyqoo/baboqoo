@@ -24,8 +24,8 @@ import (
 	"encoding/hex"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/crypto/randentropy"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/crypto/randentropy"
 )
 
 const TestCount = 1000

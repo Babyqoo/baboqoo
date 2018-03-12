@@ -25,8 +25,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
@@ -244,7 +244,7 @@ func unpackTestEventData(dest interface{}, hexData string, jsonEvent []byte, ass
 
 /*
 Taken from
-https://github.com/baboqoo/baboqoo/pull/15568
+https://github.com/babyqoo/baboqoo/pull/15568
 */
 
 type testResult struct {

@@ -19,7 +19,7 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/discover"
 )
 
 // Protocol represents a P2P subprotocol implementation.

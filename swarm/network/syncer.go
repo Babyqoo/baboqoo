@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 // syncer parameters (global, not peer specific) default values

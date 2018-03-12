@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/mclock"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/mclock"
 )
 
 func TestTopicRadius(t *testing.T) {

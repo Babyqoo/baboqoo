@@ -25,13 +25,13 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/state"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/state"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/params"
 	"gopkg.in/karalabe/cookiejar.v2/collections/prque"
 )
 

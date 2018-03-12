@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/cmd/utils"
 	"gopkg.in/urfave/cli.v1"
 )
 

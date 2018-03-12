@@ -23,9 +23,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

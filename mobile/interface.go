@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // Interface represents a wrapped version of Go's interface{}, with the capacity

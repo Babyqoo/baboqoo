@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/simulations"
-	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/simulations"
+	"github.com/babyqoo/baboqoo/p2p/simulations/adapters"
+	"github.com/babyqoo/baboqoo/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

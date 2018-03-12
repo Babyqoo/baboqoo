@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // SwAP Swarm Accounting Protocol with

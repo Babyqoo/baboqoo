@@ -23,8 +23,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 // Compiler contains information about the parsed source

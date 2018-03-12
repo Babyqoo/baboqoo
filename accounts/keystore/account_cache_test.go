@@ -29,8 +29,8 @@ import (
 
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 var (

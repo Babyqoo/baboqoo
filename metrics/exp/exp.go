@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/metrics"
 )
 
 type exp struct {

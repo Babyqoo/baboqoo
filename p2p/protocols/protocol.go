@@ -34,7 +34,7 @@ import (
 	"reflect"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p"
 )
 
 // error codes used by this  protocol scheme

@@ -23,8 +23,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common/mclock"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common/mclock"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 const (

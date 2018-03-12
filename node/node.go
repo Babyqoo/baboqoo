@@ -26,13 +26,13 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/internal/debug"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/internal/debug"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/rpc"
 	"github.com/prometheus/prometheus/util/flock"
 )
 

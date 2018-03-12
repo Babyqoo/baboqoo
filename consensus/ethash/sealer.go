@@ -24,10 +24,10 @@ import (
 	"runtime"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/consensus"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/consensus"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // Seal implements consensus.Engine, attempting to find a nonce that satisfies

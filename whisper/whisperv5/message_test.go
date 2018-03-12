@@ -21,8 +21,8 @@ import (
 	mrand "math/rand"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 func generateMessageParams() (*MessageParams, error) {

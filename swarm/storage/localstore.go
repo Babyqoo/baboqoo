@@ -19,7 +19,7 @@ package storage
 import (
 	"encoding/binary"
 
-	"github.com/baboqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/metrics"
 )
 
 //metrics variables

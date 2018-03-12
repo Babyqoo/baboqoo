@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/crypto"
 	"github.com/pborman/uuid"
 	"gopkg.in/urfave/cli.v1"
 )

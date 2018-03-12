@@ -33,10 +33,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p/netutil"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p/netutil"
 )
 
 const (

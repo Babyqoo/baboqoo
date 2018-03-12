@@ -35,9 +35,9 @@ import (
 	"io"
 	"sort"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/sha3"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/sha3"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 const SizeLimit = 300 // maximum encoded size of a node record in bytes

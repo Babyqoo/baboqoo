@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/console"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/console"
+	"github.com/babyqoo/baboqoo/crypto"
 	"gopkg.in/urfave/cli.v1"
 )
 

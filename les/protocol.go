@@ -26,11 +26,11 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/secp256k1"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/secp256k1"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // Constants to match up protocol versions and messages

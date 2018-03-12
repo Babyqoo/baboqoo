@@ -23,8 +23,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
 )
 
 //metrics variables

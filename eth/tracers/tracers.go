@@ -21,7 +21,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/baboqoo/baboqoo/eth/tracers/internal/tracers"
+	"github.com/babyqoo/baboqoo/eth/tracers/internal/tracers"
 )
 
 // all contains all the built in JavaScript tracers by name.

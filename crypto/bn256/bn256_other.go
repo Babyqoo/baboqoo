@@ -22,7 +22,7 @@ package bn256
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/crypto/bn256/google"
+	"github.com/babyqoo/baboqoo/crypto/bn256/google"
 )
 
 // G1 is an abstract cyclic group. The zero value is suitable for use as the

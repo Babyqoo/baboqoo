@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 	"golang.org/x/crypto/pbkdf2"
 )
 

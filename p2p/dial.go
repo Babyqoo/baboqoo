@@ -24,9 +24,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/netutil"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/netutil"
 )
 
 const (

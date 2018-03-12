@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // deployExplorer creates a new block explorer based on some user input.

@@ -23,12 +23,12 @@ import (
 	"net"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // SimAdapter is a NodeAdapter which creates in-memory simulation nodes and

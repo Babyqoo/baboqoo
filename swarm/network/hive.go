@@ -22,13 +22,13 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/netutil"
-	"github.com/baboqoo/baboqoo/swarm/network/kademlia"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/netutil"
+	"github.com/babyqoo/baboqoo/swarm/network/kademlia"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 // Hive is the logistic manager of the swarm

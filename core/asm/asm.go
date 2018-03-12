@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 // Iterator for disassembled EVM instructions

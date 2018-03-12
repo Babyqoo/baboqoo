@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/baboqoo/baboqoo/contracts/chequebook"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/swarm/network/kademlia"
-	"github.com/baboqoo/baboqoo/swarm/services/swap"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/contracts/chequebook"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/swarm/network/kademlia"
+	"github.com/babyqoo/baboqoo/swarm/services/swap"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 /*

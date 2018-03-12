@@ -20,10 +20,10 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/consensus/ethash"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/consensus/ethash"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // Tests that DAO-fork enabled clients can properly filter out fork-commencing

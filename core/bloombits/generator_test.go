@@ -21,7 +21,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // Tests that batched bloom bits are correctly rotated from the input bloom

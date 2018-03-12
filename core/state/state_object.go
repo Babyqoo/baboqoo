@@ -22,9 +22,9 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 var emptyCodeHash = crypto.Keccak256(nil)

@@ -26,14 +26,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/contracts/chequebook"
-	"github.com/baboqoo/baboqoo/contracts/chequebook/contract"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/services/swap/swap"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/contracts/chequebook"
+	"github.com/babyqoo/baboqoo/contracts/chequebook/contract"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/services/swap/swap"
 )
 
 // SwAP       Swarm Accounting Protocol with

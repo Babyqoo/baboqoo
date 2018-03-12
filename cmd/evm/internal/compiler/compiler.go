@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/core/asm"
+	"github.com/babyqoo/baboqoo/core/asm"
 )
 
 func Compile(fn string, src []byte, debug bool) (string, error) {

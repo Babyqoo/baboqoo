@@ -26,11 +26,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/ecies"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/ecies"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // Envelope represents a clear-text data packet to transmit through the Whisper

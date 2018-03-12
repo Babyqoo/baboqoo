@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/internal/build"
+	"github.com/babyqoo/baboqoo/internal/build"
 )
 
 // androidTestClass is a Java class to do some lightweight tests against the Android
@@ -207,7 +207,7 @@ func TestAndroid(t *testing.T) {
 		}
 	}
 	// Generate the mobile bindings for Gbbq and add the tester class
-	gobind := exec.Command("gomobile", "bind", "-javapkg", "org.baboqoo", "github.com/baboqoo/baboqoo/mobile")
+	gobind := exec.Command("gomobile", "bind", "-javapkg", "org.baboqoo", "github.com/babyqoo/baboqoo/mobile")
 	if output, err := gobind.CombinedOutput(); err != nil {
 		t.Logf("%s", output)
 		t.Fatalf("failed to run gomobile bind: %v", err)

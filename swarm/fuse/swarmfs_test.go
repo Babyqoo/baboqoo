@@ -27,8 +27,8 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/swarm/api"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 type fileInfo struct {

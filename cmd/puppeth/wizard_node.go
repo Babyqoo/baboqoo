@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // deployNode creates a new node configuration based on some user input.

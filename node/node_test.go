@@ -24,9 +24,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 var (

@@ -22,7 +22,7 @@ package gbbq
 import (
 	"errors"
 
-	"github.com/baboqoo/baboqoo/p2p/discv5"
+	"github.com/babyqoo/baboqoo/p2p/discv5"
 )
 
 // Enode represents a host on the network.

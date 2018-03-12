@@ -20,8 +20,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 // Tests that transactions can be added to strict lists and list contents and

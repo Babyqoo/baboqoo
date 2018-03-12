@@ -27,12 +27,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/internal/debug"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/internal/debug"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 const (

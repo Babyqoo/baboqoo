@@ -25,11 +25,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/log"
 	duktape "gopkg.in/olebedev/go-duktape.v3"
 )
 

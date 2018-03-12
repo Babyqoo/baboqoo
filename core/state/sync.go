@@ -19,9 +19,9 @@ package state
 import (
 	"bytes"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/rlp"
-	"github.com/baboqoo/baboqoo/trie"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/trie"
 )
 
 // NewStateSync create a new state trie download scheduler.

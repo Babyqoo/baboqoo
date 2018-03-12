@@ -19,7 +19,7 @@ package params
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // DAOForkBlockExtra is the block header extra-data field to set for the DAO fork

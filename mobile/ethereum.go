@@ -21,8 +21,8 @@ package gbbq
 import (
 	"errors"
 
-	baboqoo "github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/common"
+	baboqoo "github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // Subscription represents an event subscription where events are

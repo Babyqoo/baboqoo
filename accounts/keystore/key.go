@@ -29,9 +29,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
 	"github.com/pborman/uuid"
 )
 

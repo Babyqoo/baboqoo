@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 func TestSet(t *testing.T) {

@@ -19,9 +19,9 @@ package keystore
 import (
 	"math/big"
 
-	baboqoo "github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/core/types"
+	baboqoo "github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

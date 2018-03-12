@@ -21,9 +21,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/core/state"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/core/state"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 var (

@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/bn256"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/bn256"
+	"github.com/babyqoo/baboqoo/params"
 	"golang.org/x/crypto/ripemd160"
 )
 

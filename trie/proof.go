@@ -20,11 +20,11 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

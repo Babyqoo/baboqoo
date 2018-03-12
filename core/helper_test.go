@@ -20,9 +20,9 @@ import (
 	"container/list"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/event"
 )
 
 // Implement our EthTest Manager

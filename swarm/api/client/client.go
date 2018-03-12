@@ -33,7 +33,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/swarm/api"
 )
 
 var (

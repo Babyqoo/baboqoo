@@ -21,7 +21,7 @@ import (
 	"container/heap"
 	"errors"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // Iterator is a key-value trie iterator that traverses a Trie.

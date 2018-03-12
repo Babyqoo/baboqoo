@@ -22,7 +22,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 	"gopkg.in/urfave/cli.v1"
 )
 

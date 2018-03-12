@@ -28,9 +28,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/swarm/api"
 )
 
 //templateMap holds a mapping of an HTTP error code to a template

@@ -20,7 +20,7 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 /*

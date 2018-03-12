@@ -18,11 +18,11 @@
 package consensus
 
 import (
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/state"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/params"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/state"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/rpc"
 	"math/big"
 )
 

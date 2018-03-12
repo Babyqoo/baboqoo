@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/baboqoo/baboqoo/swarm/api"
+	bzzapi "github.com/babyqoo/baboqoo/swarm/api"
 )
 
 var (
@@ -84,7 +84,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check github.com/baboqoo/baboqoo/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/babyqoo/baboqoo/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

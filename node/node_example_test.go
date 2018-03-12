@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // SampleService is a trivial network service that can be attached to a node for

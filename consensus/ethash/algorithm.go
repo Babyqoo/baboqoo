@@ -27,11 +27,11 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/bitutil"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/sha3"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/bitutil"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/sha3"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 const (

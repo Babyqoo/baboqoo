@@ -27,12 +27,12 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/accounts/usbwallet/internal/trezor"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/accounts/usbwallet/internal/trezor"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/log"
 	"github.com/golang/protobuf/proto"
 )
 

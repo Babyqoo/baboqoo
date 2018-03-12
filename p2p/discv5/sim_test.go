@@ -28,7 +28,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // In this test, nodes try to randomly resolve each other.

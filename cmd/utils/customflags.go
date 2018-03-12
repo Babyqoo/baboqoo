@@ -27,7 +27,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/common/math"
 	"gopkg.in/urfave/cli.v1"
 )
 

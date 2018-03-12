@@ -19,9 +19,9 @@ package misc
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // VerifyForkHashes verifies that blocks conforming to network hard-forks do have

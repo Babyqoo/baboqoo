@@ -26,9 +26,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/event"
 )
 
 var testSigData = make([]byte, 32)

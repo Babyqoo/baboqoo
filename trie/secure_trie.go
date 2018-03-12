@@ -19,8 +19,8 @@ package trie
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // SecureTrie wraps a trie with key hashing. In a secure trie, all

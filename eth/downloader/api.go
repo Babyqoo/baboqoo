@@ -20,9 +20,9 @@ import (
 	"context"
 	"sync"
 
-	baboqoo "github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/rpc"
+	baboqoo "github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // PublicDownloaderAPI provides an API which gives information about the current synchronisation status.

@@ -21,7 +21,7 @@ package gbbq
 import (
 	"errors"
 
-	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p"
 )
 
 // NodeInfo represents pi short summary of the information known about the host.

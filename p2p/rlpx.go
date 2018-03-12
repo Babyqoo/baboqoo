@@ -35,12 +35,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/crypto/ecies"
-	"github.com/baboqoo/baboqoo/crypto/secp256k1"
-	"github.com/baboqoo/baboqoo/crypto/sha3"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto/ecies"
+	"github.com/babyqoo/baboqoo/crypto/secp256k1"
+	"github.com/babyqoo/baboqoo/crypto/sha3"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/rlp"
 	"github.com/golang/snappy"
 )
 

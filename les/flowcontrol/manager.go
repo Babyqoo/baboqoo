@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common/mclock"
+	"github.com/babyqoo/baboqoo/common/mclock"
 )
 
 const rcConst = 1000000

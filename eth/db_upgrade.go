@@ -21,11 +21,11 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 var deduplicateData = []byte("dbUpgrade_20170714deduplicateData")

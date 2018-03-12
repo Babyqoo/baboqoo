@@ -22,8 +22,8 @@ package node
 import (
 	"reflect"
 
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // NoopService is a trivial implementation of the Service interface.

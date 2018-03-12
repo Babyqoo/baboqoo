@@ -25,14 +25,14 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/accounts/usbwallet"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/accounts/usbwallet"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
 )
 
 const (

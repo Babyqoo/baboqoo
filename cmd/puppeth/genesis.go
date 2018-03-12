@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/consensus/ethash"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/consensus/ethash"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // cppBaboqooGenesisSpec represents the genesis specification format used by the

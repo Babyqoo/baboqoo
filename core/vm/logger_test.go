@@ -20,8 +20,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 type dummyContractRef struct {

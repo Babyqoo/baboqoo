@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
-	p2ptest "github.com/baboqoo/baboqoo/p2p/testing"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/simulations/adapters"
+	p2ptest "github.com/babyqoo/baboqoo/p2p/testing"
 )
 
 // handshake message type

@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/consensus/ethash"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/consensus/ethash"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 func TestDefaultGenesisBlock(t *testing.T) {

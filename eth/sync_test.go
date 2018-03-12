@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/eth/downloader"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/eth/downloader"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
 )
 
 // Tests that fast sync gets disabled as soon as a real block is successfully

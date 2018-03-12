@@ -11,7 +11,7 @@
 
   <name>Android Baboqoo Client</name>
   <description>Android port of the baboqoo libraries and node</description>
-  <url>https://github.com/baboqoo/baboqoo</url>
+  <url>https://github.com/babyqoo/baboqoo</url>
   <inceptionYear>2015</inceptionYear>
 
   <licenses>
@@ -48,10 +48,10 @@
 
   <issueManagement>
     <system>GitHub Issues</system>
-    <url>https://github.com/baboqoo/baboqoo/issues/</url>
+    <url>https://github.com/babyqoo/baboqoo/issues/</url>
   </issueManagement>
 
   <scm>
-    <url>https://github.com/baboqoo/baboqoo</url>
+    <url>https://github.com/babyqoo/baboqoo</url>
   </scm>
 </project>

@@ -21,10 +21,10 @@ import (
 	"math"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 var (

@@ -19,7 +19,7 @@ package tests
 import (
 	"testing"
 
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 func TestVM(t *testing.T) {

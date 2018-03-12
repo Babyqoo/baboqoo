@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync/atomic"
 
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // Config are the configuration options for the Interpreter

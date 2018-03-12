@@ -17,8 +17,8 @@
 package core
 
 import (
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // TxPreEvent is posted when a transaction enters the transaction pool.

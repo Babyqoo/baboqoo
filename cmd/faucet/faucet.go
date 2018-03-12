@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/eth"
-	"github.com/baboqoo/baboqoo/eth/downloader"
-	"github.com/baboqoo/baboqoo/ethclient"
-	"github.com/baboqoo/baboqoo/ethstats"
-	"github.com/baboqoo/baboqoo/les"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/discv5"
-	"github.com/baboqoo/baboqoo/p2p/nat"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/eth"
+	"github.com/babyqoo/baboqoo/eth/downloader"
+	"github.com/babyqoo/baboqoo/ethclient"
+	"github.com/babyqoo/baboqoo/ethstats"
+	"github.com/babyqoo/baboqoo/les"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/discv5"
+	"github.com/babyqoo/baboqoo/p2p/nat"
+	"github.com/babyqoo/baboqoo/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/baboqoo/baboqoo/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/babyqoo/baboqoo/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 const requesterCount = 3

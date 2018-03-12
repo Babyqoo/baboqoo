@@ -25,11 +25,11 @@ import (
 	"io/ioutil"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/accounts/abi/bind/backends"
-	"github.com/baboqoo/baboqoo/contracts/chequebook/contract"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind/backends"
+	"github.com/babyqoo/baboqoo/contracts/chequebook/contract"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 var (

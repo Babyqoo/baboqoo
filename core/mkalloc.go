@@ -34,8 +34,8 @@ import (
 	"sort"
 	"strconv"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 type allocItem struct{ Addr, Balance *big.Int }

@@ -21,11 +21,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/accounts/abi"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/state"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/accounts/abi"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/state"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/ethdb"
 )
 
 func TestDefaults(t *testing.T) {

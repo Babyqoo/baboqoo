@@ -22,9 +22,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/swarm/api"
-	httpapi "github.com/baboqoo/baboqoo/swarm/api/http"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/swarm/api"
+	httpapi "github.com/babyqoo/baboqoo/swarm/api/http"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 func NewTestSwarmServer(t *testing.T) *TestSwarmServer {

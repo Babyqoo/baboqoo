@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 const Version = "1.0"

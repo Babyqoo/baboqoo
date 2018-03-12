@@ -19,7 +19,7 @@ package number
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 var tt256 = new(big.Int).Lsh(big.NewInt(1), 256)

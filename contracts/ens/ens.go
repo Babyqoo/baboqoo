@@ -23,11 +23,11 @@ package ens
 import (
 	"strings"
 
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/contracts/ens/contract"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/contracts/ens/contract"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 var (

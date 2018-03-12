@@ -17,7 +17,7 @@
 // Package bind generates Baboqoo contract Go bindings.
 //
 // Detailed usage document and tutorial available on the baboqoo Wiki page:
-// https://github.com/baboqoo/baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts
+// https://github.com/babyqoo/baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts
 package bind
 
 import (
@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/baboqoo/baboqoo/accounts/abi"
+	"github.com/babyqoo/baboqoo/accounts/abi"
 	"golang.org/x/tools/imports"
 )
 

@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/baboqoo/baboqoo/cmd/evm/internal/compiler"
+	"github.com/babyqoo/baboqoo/cmd/evm/internal/compiler"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

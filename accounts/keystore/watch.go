@@ -21,7 +21,7 @@ package keystore
 import (
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 	"github.com/rjeczalik/notify"
 )
 

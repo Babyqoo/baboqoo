@@ -26,7 +26,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // dashboardContent is the actual dashboard HTML content to serve up when users
@@ -256,7 +256,7 @@ var dashboardContent = `
 										<p>Starting with the 1.5 release of baboqoo, we've transitioned away from shipping only full blown Baboqoo clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for Java based Android projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Baboqoo network can nonetheless be accessed from Android too.</p>
 										<p>Under the hood the Android library is backed by a baboqoo light node, meaning that given a not-too-old Android device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/baboqoo/baboqoo/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
+										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/babyqoo/baboqoo/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
 										<p>Before connecting to the Baboqoo network, download the <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
 										<p>Inside your Java code you can now import the gbbq archive and connect to Baboqoo:
 											<pre>import org.baboqoo.gbbq.*;</pre>
@@ -287,7 +287,7 @@ node.start();
 										<p>Starting with the 1.5 release of baboqoo, we've transitioned away from shipping only full blown Baboqoo clients and started focusing on releasing the code as reusable packages initially for Go projects, then later for ObjC/Swift based iOS projects too. Mobile support is still evolving, hence is bound to change often and hard, but the Baboqoo network can nonetheless be accessed from iOS too.</p>
 										<p>Under the hood the iOS library is backed by a baboqoo light node, meaning that given a not-too-old Apple device, you should be able to join the network without significant issues. Certain functionality is not yet available and rough edges are bound to appear here and there, please report issues if you find any.</p>
 										<br/>
-										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/baboqoo/baboqoo/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
+										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/babyqoo/baboqoo/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
 										<p>Before connecting to the Baboqoo network, download the <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
 										<p>Inside your Swift code you can now import the gbbq framework and connect to Baboqoo (ObjC should be analogous):
 											<pre>import Gbbq</pre>
@@ -419,7 +419,7 @@ try! node?.start();
 										<p>Puppeth is a tool to aid you in creating a new Baboqoo network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet, wallet browsers, block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
-										<p>Puppeth is distributed as part of the <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">Gbbq &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/baboqoo/baboqoo/cmd/puppeth</pre></p>
+										<p>Puppeth is distributed as part of the <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">Gbbq &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/babyqoo/baboqoo/cmd/puppeth</pre></p>
 										<br/>
 										<p><em>Copyright 2017. The baboqoo Authors.</em></p>
 									</div>

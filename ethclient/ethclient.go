@@ -24,12 +24,12 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/rlp"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // Client defines typed wrappers for the Baboqoo RPC API.

@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // explorerDockerfile is the Dockerfile required to run a block explorer.

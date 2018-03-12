@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
-	baboqoo "github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/rpc"
+	baboqoo "github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // Type determines the kind of filter and is used to put the filter in to

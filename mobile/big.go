@@ -22,7 +22,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // A BigInt represents a signed multi-precision integer.

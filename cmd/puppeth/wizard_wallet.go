@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // deployWallet creates a new web wallet based on some user input.

@@ -23,10 +23,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/baboqoo/baboqoo/core/state"
-	"github.com/baboqoo/baboqoo/core/vm"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/tests"
+	"github.com/babyqoo/baboqoo/core/state"
+	"github.com/babyqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/tests"
 
 	cli "gopkg.in/urfave/cli.v1"
 )

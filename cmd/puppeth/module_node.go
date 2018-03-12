@@ -26,8 +26,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // nodeDockerfile is the Dockerfile required to run an Baboqoo node.

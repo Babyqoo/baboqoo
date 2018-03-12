@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common/bitutil"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/common/bitutil"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 // bloomIndexes represents the bit indexes inside the bloom filter that belong

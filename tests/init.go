@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // This table defines supported forks and their chain config.

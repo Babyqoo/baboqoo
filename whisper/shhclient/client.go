@@ -19,10 +19,10 @@ package shhclient
 import (
 	"context"
 
-	"github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/common/hexutil"
-	"github.com/baboqoo/baboqoo/rpc"
-	whisper "github.com/baboqoo/baboqoo/whisper/whisperv5"
+	"github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/rpc"
+	whisper "github.com/babyqoo/baboqoo/whisper/whisperv5"
 )
 
 // Client defines typed wrappers for the Whisper v5 RPC API.

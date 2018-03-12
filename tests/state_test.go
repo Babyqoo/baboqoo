@@ -22,7 +22,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/babyqoo/baboqoo/core/vm"
 )
 
 func TestState(t *testing.T) {

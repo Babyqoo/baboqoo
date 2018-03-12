@@ -21,7 +21,7 @@ package dashboard
 import (
 	"syscall"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // getProcessCPUTime retrieves the process' CPU time since program startup.

@@ -7,12 +7,12 @@ import (
 	"math/big"
 	"strings"
 
-	baboqoo "github.com/baboqoo/baboqoo"
-	"github.com/baboqoo/baboqoo/accounts/abi"
-	"github.com/baboqoo/baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/event"
+	baboqoo "github.com/babyqoo/baboqoo"
+	"github.com/babyqoo/baboqoo/accounts/abi"
+	"github.com/babyqoo/baboqoo/accounts/abi/bind"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/event"
 )
 
 // PublicResolverABI is the input ABI used to generate the binding from.

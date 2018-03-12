@@ -24,7 +24,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/metrics"
 )
 
 /*

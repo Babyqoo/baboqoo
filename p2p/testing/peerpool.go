@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/p2p/discover"
 )
 
 type TestPeer interface {

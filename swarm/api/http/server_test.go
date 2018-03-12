@@ -26,11 +26,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/swarm/api"
-	swarm "github.com/baboqoo/baboqoo/swarm/api/client"
-	"github.com/baboqoo/baboqoo/swarm/storage"
-	"github.com/baboqoo/baboqoo/swarm/testutil"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/swarm/api"
+	swarm "github.com/babyqoo/baboqoo/swarm/api/client"
+	"github.com/babyqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/swarm/testutil"
 )
 
 func TestBzzGetPath(t *testing.T) {

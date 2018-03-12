@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // deployEthstats queries the user for various input on deploying an ethstats

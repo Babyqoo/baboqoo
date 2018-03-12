@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 /*

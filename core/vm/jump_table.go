@@ -20,7 +20,7 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 type (

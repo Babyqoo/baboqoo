@@ -27,13 +27,13 @@ import (
 	"time"
 
 	"github.com/docker/docker/pkg/reexec"
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/internal/cmdtest"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/rpc"
-	"github.com/baboqoo/baboqoo/swarm"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/internal/cmdtest"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/swarm"
 )
 
 func init() {

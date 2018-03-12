@@ -19,8 +19,8 @@ package les
 import (
 	"time"
 
-	"github.com/baboqoo/baboqoo/common/bitutil"
-	"github.com/baboqoo/baboqoo/light"
+	"github.com/babyqoo/baboqoo/common/bitutil"
+	"github.com/babyqoo/baboqoo/light"
 )
 
 const (

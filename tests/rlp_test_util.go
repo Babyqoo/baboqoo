@@ -24,7 +24,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // RLPTest is the JSON structure of a single RLP test.

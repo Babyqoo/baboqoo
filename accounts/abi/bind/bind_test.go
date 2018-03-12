@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 	"golang.org/x/tools/imports"
 )
 

@@ -17,7 +17,7 @@
 package api
 
 import (
-	"github.com/baboqoo/baboqoo/swarm/network"
+	"github.com/babyqoo/baboqoo/swarm/network"
 )
 
 type Control struct {

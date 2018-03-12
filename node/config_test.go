@@ -24,8 +24,8 @@ import (
 	"runtime"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/p2p"
 )
 
 // Tests that datadirs can be successfully created, be them manually configured

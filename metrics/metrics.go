@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // Enabled is checked by the constructor functions for all of the

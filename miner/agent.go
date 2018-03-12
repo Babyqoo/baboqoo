@@ -21,8 +21,8 @@ import (
 
 	"sync/atomic"
 
-	"github.com/baboqoo/baboqoo/consensus"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/consensus"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 type CpuAgent struct {

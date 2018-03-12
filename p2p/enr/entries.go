@@ -22,8 +22,8 @@ import (
 	"io"
 	"net"
 
-	"github.com/baboqoo/baboqoo/crypto"
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 // Entry is implemented by known node record entry types.

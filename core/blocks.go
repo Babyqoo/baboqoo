@@ -16,7 +16,7 @@
 
 package core
 
-import "github.com/baboqoo/baboqoo/common"
+import "github.com/babyqoo/baboqoo/common"
 
 // BadHashes represent a set of manually tracked bad hashes (usually hard forks)
 var BadHashes = map[common.Hash]bool{

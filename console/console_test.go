@@ -26,12 +26,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/consensus/ethash"
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/eth"
-	"github.com/baboqoo/baboqoo/internal/jsre"
-	"github.com/baboqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/consensus/ethash"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/eth"
+	"github.com/babyqoo/baboqoo/internal/jsre"
+	"github.com/babyqoo/baboqoo/node"
 )
 
 const (

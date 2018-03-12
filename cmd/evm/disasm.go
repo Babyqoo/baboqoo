@@ -22,7 +22,7 @@ import (
 	"io/ioutil"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/core/asm"
+	"github.com/babyqoo/baboqoo/core/asm"
 	cli "gopkg.in/urfave/cli.v1"
 )
 

@@ -21,8 +21,8 @@ package gbbq
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/core/types"
-	"github.com/baboqoo/baboqoo/ethclient"
+	"github.com/babyqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/ethclient"
 )
 
 // BaboqooClient provides access to the Baboqoo APIs.

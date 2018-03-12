@@ -19,7 +19,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 func makeStackFunc(pop, push int) stackValidationFunc {

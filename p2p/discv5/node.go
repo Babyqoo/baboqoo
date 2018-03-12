@@ -30,8 +30,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 // Node represents a host on the network.

@@ -20,9 +20,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/eth/downloader"
-	"github.com/baboqoo/baboqoo/light"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/eth/downloader"
+	"github.com/babyqoo/baboqoo/light"
 )
 
 const (

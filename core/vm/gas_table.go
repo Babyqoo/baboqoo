@@ -17,9 +17,9 @@
 package vm
 
 import (
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/common/math"
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common/math"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 // memoryGasCosts calculates the quadratic gas for memory expansion. It does so

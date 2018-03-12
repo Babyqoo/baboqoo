@@ -25,8 +25,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/swarm/api"
-	"github.com/baboqoo/baboqoo/swarm/testutil"
+	"github.com/babyqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/swarm/testutil"
 )
 
 // TestClientUploadDownloadRaw test uploading and downloading raw data to swarm

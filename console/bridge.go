@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts/usbwallet"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/accounts/usbwallet"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/rpc"
 	"github.com/robertkrimen/otto"
 )
 

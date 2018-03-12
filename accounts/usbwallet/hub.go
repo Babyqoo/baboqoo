@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts"
-	"github.com/baboqoo/baboqoo/event"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/accounts"
+	"github.com/babyqoo/baboqoo/event"
+	"github.com/babyqoo/baboqoo/log"
 	"github.com/karalabe/hid"
 )
 

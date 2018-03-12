@@ -19,7 +19,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // errSectionOutOfBounds is returned if the user tried to add more bloom filters

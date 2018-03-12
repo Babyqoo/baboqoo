@@ -25,7 +25,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 // walletDockerfile is the Dockerfile required to run a web wallet.

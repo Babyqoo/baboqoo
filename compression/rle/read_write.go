@@ -21,7 +21,7 @@ import (
 	"bytes"
 	"errors"
 
-	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/babyqoo/baboqoo/crypto"
 )
 
 const (

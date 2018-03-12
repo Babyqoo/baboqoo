@@ -26,7 +26,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/rlp"
 )
 
 var (

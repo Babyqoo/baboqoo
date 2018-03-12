@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log"
 )
 
 /*
 http roundtripper to register for bzz url scheme
-see https://github.com/baboqoo/baboqoo/issues/2040
+see https://github.com/babyqoo/baboqoo/issues/2040
 Usage:
 
 import (
- "github.com/baboqoo/baboqoo/common/httpclient"
- "github.com/baboqoo/baboqoo/swarm/api/http"
+ "github.com/babyqoo/baboqoo/common/httpclient"
+ "github.com/babyqoo/baboqoo/swarm/api/http"
 )
 client := httpclient.New()
 // for (private) swarm proxy running locally

@@ -28,9 +28,9 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/baboqoo/baboqoo/internal/jsre"
-	"github.com/baboqoo/baboqoo/internal/web3ext"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/internal/jsre"
+	"github.com/babyqoo/baboqoo/internal/web3ext"
+	"github.com/babyqoo/baboqoo/rpc"
 	"github.com/mattn/go-colorable"
 	"github.com/peterh/liner"
 	"github.com/robertkrimen/otto"

@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/ethdb"
-	"github.com/baboqoo/baboqoo/trie"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/trie"
 	lru "github.com/hashicorp/golang-lru"
 )
 

@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 func (Address) Generate(rand *rand.Rand, size int) reflect.Value {

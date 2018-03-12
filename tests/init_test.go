@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 var (

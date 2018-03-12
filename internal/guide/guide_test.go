@@ -30,8 +30,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/accounts/keystore"
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/accounts/keystore"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // Tests that the account management snippets work correctly.

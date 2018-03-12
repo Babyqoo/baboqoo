@@ -37,13 +37,13 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/baboqoo/baboqoo/contracts/chequebook"
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/p2p"
-	bzzswap "github.com/baboqoo/baboqoo/swarm/services/swap"
-	"github.com/baboqoo/baboqoo/swarm/services/swap/swap"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/contracts/chequebook"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/p2p"
+	bzzswap "github.com/babyqoo/baboqoo/swarm/services/swap"
+	"github.com/babyqoo/baboqoo/swarm/services/swap/swap"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 )
 
 //metrics variables

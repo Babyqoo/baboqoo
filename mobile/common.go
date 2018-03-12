@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // Hash represents the 32 byte Keccak256 hash of arbitrary data.

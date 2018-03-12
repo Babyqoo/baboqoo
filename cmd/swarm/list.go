@@ -22,8 +22,8 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	swarm "github.com/baboqoo/baboqoo/swarm/api/client"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	swarm "github.com/babyqoo/baboqoo/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

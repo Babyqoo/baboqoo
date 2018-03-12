@@ -19,7 +19,7 @@ package vm
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 // destinations stores one map per contract (keyed by hash of code).

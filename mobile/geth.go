@@ -24,17 +24,17 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/eth"
-	"github.com/baboqoo/baboqoo/eth/downloader"
-	"github.com/baboqoo/baboqoo/ethclient"
-	"github.com/baboqoo/baboqoo/ethstats"
-	"github.com/baboqoo/baboqoo/les"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/nat"
-	"github.com/baboqoo/baboqoo/params"
-	whisper "github.com/baboqoo/baboqoo/whisper/whisperv5"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/eth"
+	"github.com/babyqoo/baboqoo/eth/downloader"
+	"github.com/babyqoo/baboqoo/ethclient"
+	"github.com/babyqoo/baboqoo/ethstats"
+	"github.com/babyqoo/baboqoo/les"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/nat"
+	"github.com/babyqoo/baboqoo/params"
+	whisper "github.com/babyqoo/baboqoo/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Gbbq

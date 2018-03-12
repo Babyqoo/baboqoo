@@ -19,8 +19,8 @@ package vm
 import (
 	"math/big"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // StateDB is an EVM database for full state querying.

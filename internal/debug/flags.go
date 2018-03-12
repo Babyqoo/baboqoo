@@ -24,10 +24,10 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/log/term"
-	"github.com/baboqoo/baboqoo/metrics"
-	"github.com/baboqoo/baboqoo/metrics/exp"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/log/term"
+	"github.com/babyqoo/baboqoo/metrics"
+	"github.com/babyqoo/baboqoo/metrics/exp"
 	colorable "github.com/mattn/go-colorable"
 	"gopkg.in/urfave/cli.v1"
 )

@@ -16,7 +16,7 @@
 
 package ethclient
 
-import "github.com/baboqoo/baboqoo"
+import "github.com/babyqoo/baboqoo"
 
 // Verify that Client implements the baboqoo interfaces.
 var (

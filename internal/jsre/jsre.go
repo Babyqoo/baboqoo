@@ -26,8 +26,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/internal/jsre/deps"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/internal/jsre/deps"
 	"github.com/robertkrimen/otto"
 )
 

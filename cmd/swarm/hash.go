@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/baboqoo/baboqoo/cmd/utils"
-	"github.com/baboqoo/baboqoo/swarm/storage"
+	"github.com/babyqoo/baboqoo/cmd/utils"
+	"github.com/babyqoo/baboqoo/swarm/storage"
 	"gopkg.in/urfave/cli.v1"
 )
 

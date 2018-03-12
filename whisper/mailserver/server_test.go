@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto"
-	whisper "github.com/baboqoo/baboqoo/whisper/whisperv6"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto"
+	whisper "github.com/babyqoo/baboqoo/whisper/whisperv6"
 )
 
 const powRequirement = 0.00001

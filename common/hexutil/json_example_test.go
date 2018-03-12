@@ -20,7 +20,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/baboqoo/baboqoo/common/hexutil"
+	"github.com/babyqoo/baboqoo/common/hexutil"
 )
 
 type MyType [5]byte

@@ -19,7 +19,7 @@ package state
 import (
 	"sync"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 type account struct {

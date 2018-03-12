@@ -20,7 +20,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/params"
+	"github.com/babyqoo/baboqoo/params"
 )
 
 func TestTransaction(t *testing.T) {

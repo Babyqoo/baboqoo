@@ -20,8 +20,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/ethdb"
 )
 
 // makeTestTrie create a sample test trie to test node-wise reconstruction.

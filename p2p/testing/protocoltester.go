@@ -32,14 +32,14 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/log"
-	"github.com/baboqoo/baboqoo/node"
-	"github.com/baboqoo/baboqoo/p2p"
-	"github.com/baboqoo/baboqoo/p2p/discover"
-	"github.com/baboqoo/baboqoo/p2p/simulations"
-	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
-	"github.com/baboqoo/baboqoo/rlp"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/node"
+	"github.com/babyqoo/baboqoo/p2p"
+	"github.com/babyqoo/baboqoo/p2p/discover"
+	"github.com/babyqoo/baboqoo/p2p/simulations"
+	"github.com/babyqoo/baboqoo/p2p/simulations/adapters"
+	"github.com/babyqoo/baboqoo/rlp"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // ProtocolTester is the tester environment used for unit testing protocol

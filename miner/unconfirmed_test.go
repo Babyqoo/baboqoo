@@ -19,8 +19,8 @@ package miner
 import (
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/core/types"
 )
 
 // noopHeaderRetriever is an implementation of headerRetriever that always

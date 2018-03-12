@@ -22,7 +22,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 // In this example, our client whishes to track the latest 'block number'

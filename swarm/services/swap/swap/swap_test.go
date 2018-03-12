@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/common"
 )
 
 type testInPayment struct {

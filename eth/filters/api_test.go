@@ -21,8 +21,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/rpc"
 )
 
 func TestUnmarshalJSONNewFilterArgs(t *testing.T) {

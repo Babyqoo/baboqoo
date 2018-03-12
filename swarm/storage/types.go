@@ -24,9 +24,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/bmt"
-	"github.com/baboqoo/baboqoo/common"
-	"github.com/baboqoo/baboqoo/crypto/sha3"
+	"github.com/babyqoo/baboqoo/bmt"
+	"github.com/babyqoo/baboqoo/common"
+	"github.com/babyqoo/baboqoo/crypto/sha3"
 )
 
 type Hasher func() hash.Hash

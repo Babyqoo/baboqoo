@@ -23,8 +23,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/baboqoo/baboqoo/core"
-	"github.com/baboqoo/baboqoo/log"
+	"github.com/babyqoo/baboqoo/core"
+	"github.com/babyqoo/baboqoo/log"
 	"github.com/olekukonko/tablewriter"
 )
 

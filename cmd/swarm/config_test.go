@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/baboqoo/baboqoo/rpc"
-	"github.com/baboqoo/baboqoo/swarm"
-	"github.com/baboqoo/baboqoo/swarm/api"
+	"github.com/babyqoo/baboqoo/rpc"
+	"github.com/babyqoo/baboqoo/swarm"
+	"github.com/babyqoo/baboqoo/swarm/api"
 
 	"github.com/docker/docker/pkg/reexec"
 )

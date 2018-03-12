@@ -5,11 +5,11 @@ ENV PATH=/usr/lib/go-1.9/bin:$PATH
 RUN \
   apt-get update && apt-get upgrade -q -y && \
   apt-get install -y --no-install-recommends golang-1.9 git make gcc libc-dev ca-certificates && \
-  git clone --depth 1 --branch release/1.8 https://github.com/baboqoo/go-baboqoo && \
-  (cd go-baboqoo && make gbbq) && \
-  cp go-baboqoo/build/bin/gbbq /gbbq && \
+  git clone --depth 1 --branch release/1.8 https://github.com/baboqoo/baboqoo && \
+  (cd baboqoo && make gbbq) && \
+  cp baboqoo/build/bin/gbbq /gbbq && \
   apt-get remove -y golang-1.9 git make gcc libc-dev && apt autoremove -y && apt-get clean && \
-  rm -rf /go-baboqoo
+  rm -rf /baboqoo
 
 EXPOSE 8545
 EXPOSE 30303

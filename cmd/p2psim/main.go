@@ -1,18 +1,18 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2017 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 // p2psim provides a command-line client for a simulation HTTP API.
 //
@@ -45,12 +45,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/baboqoo/go-baboqoo/crypto"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/p2p/simulations"
-	"github.com/baboqoo/go-baboqoo/p2p/simulations/adapters"
-	"github.com/baboqoo/go-baboqoo/rpc"
+	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/p2p/simulations"
+	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
+	"github.com/baboqoo/baboqoo/rpc"
 	"gopkg.in/urfave/cli.v1"
 )
 

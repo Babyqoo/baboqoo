@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/baboqoo/go-baboqoo
+go_import_path: github.com/baboqoo/baboqoo
 sudo: false
 matrix:
   include:

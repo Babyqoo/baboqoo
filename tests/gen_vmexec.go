@@ -7,9 +7,9 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/common/hexutil"
-	"github.com/baboqoo/go-baboqoo/common/math"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/common/hexutil"
+	"github.com/baboqoo/baboqoo/common/math"
 )
 
 var _ = (*vmExecMarshaling)(nil)

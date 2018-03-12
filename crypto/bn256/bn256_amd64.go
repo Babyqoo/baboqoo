@@ -1,18 +1,18 @@
-// Copyright 2018 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2018 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 // +build amd64,!appengine,!gccgo
 
@@ -22,7 +22,7 @@ package bn256
 import (
 	"math/big"
 
-	"github.com/baboqoo/go-baboqoo/crypto/bn256/cloudflare"
+	"github.com/baboqoo/baboqoo/crypto/bn256/cloudflare"
 )
 
 // G1 is an abstract cyclic group. The zero value is suitable for use as the

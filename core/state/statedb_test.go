@@ -1,18 +1,18 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2016 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package state
 
@@ -30,9 +30,9 @@ import (
 
 	check "gopkg.in/check.v1"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/core/types"
-	"github.com/baboqoo/go-baboqoo/ethdb"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/ethdb"
 )
 
 // Tests that updating a state trie does not leak any database writes prior to
@@ -119,7 +119,7 @@ func TestIntermediateLeaks(t *testing.T) {
 
 // TestCopy tests that copying a statedb object indeed makes the original and
 // the copy independent of each other. This test is a regression test against
-// https://github.com/baboqoo/go-baboqoo/pull/15549.
+// https://github.com/baboqoo/baboqoo/pull/15549.
 func TestCopy(t *testing.T) {
 	// Create a random state test to copy and modify "independently"
 	db, _ := ethdb.NewMemDatabase()

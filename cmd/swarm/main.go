@@ -1,18 +1,18 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2016 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -28,22 +28,22 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/baboqoo/go-baboqoo/accounts"
-	"github.com/baboqoo/go-baboqoo/accounts/keystore"
-	"github.com/baboqoo/go-baboqoo/cmd/utils"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/console"
-	"github.com/baboqoo/go-baboqoo/crypto"
-	"github.com/baboqoo/go-baboqoo/ethclient"
-	"github.com/baboqoo/go-baboqoo/internal/debug"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/params"
-	"github.com/baboqoo/go-baboqoo/swarm"
-	bzzapi "github.com/baboqoo/go-baboqoo/swarm/api"
-	swarmmetrics "github.com/baboqoo/go-baboqoo/swarm/metrics"
+	"github.com/baboqoo/baboqoo/accounts"
+	"github.com/baboqoo/baboqoo/accounts/keystore"
+	"github.com/baboqoo/baboqoo/cmd/utils"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/console"
+	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/baboqoo/baboqoo/ethclient"
+	"github.com/baboqoo/baboqoo/internal/debug"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/params"
+	"github.com/baboqoo/baboqoo/swarm"
+	bzzapi "github.com/baboqoo/baboqoo/swarm/api"
+	swarmmetrics "github.com/baboqoo/baboqoo/swarm/metrics"
 
 	"gopkg.in/urfave/cli.v1"
 )
@@ -177,7 +177,7 @@ var app = utils.NewApp(gitCommit, "Baboqoo Swarm")
 func init() {
 	app.Action = bzzd
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2016 The go-baboqoo Authors"
+	app.Copyright = "Copyright 2013-2016 The baboqoo Authors"
 	app.Commands = []cli.Command{
 		{
 			Action:    version,

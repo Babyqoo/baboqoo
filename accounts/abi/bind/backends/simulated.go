@@ -1,18 +1,18 @@
-// Copyright 2015 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2015 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package backends
 
@@ -24,21 +24,21 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/go-baboqoo"
-	"github.com/baboqoo/go-baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/common/math"
-	"github.com/baboqoo/go-baboqoo/consensus/ethash"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/core/bloombits"
-	"github.com/baboqoo/go-baboqoo/core/state"
-	"github.com/baboqoo/go-baboqoo/core/types"
-	"github.com/baboqoo/go-baboqoo/core/vm"
-	"github.com/baboqoo/go-baboqoo/eth/filters"
-	"github.com/baboqoo/go-baboqoo/ethdb"
-	"github.com/baboqoo/go-baboqoo/event"
-	"github.com/baboqoo/go-baboqoo/params"
-	"github.com/baboqoo/go-baboqoo/rpc"
+	"github.com/baboqoo/baboqoo"
+	"github.com/baboqoo/baboqoo/accounts/abi/bind"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/common/math"
+	"github.com/baboqoo/baboqoo/consensus/ethash"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/core/bloombits"
+	"github.com/baboqoo/baboqoo/core/state"
+	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/baboqoo/baboqoo/eth/filters"
+	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/baboqoo/baboqoo/event"
+	"github.com/baboqoo/baboqoo/params"
+	"github.com/baboqoo/baboqoo/rpc"
 )
 
 // This nil assignment ensures compile time that SimulatedBackend implements bind.ContractBackend.

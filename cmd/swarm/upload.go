@@ -1,18 +1,18 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2016 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 // Command bzzup uploads files to the swarm HTTP API.
 package main
@@ -30,8 +30,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/baboqoo/go-baboqoo/cmd/utils"
-	swarm "github.com/baboqoo/go-baboqoo/swarm/api/client"
+	"github.com/baboqoo/baboqoo/cmd/utils"
+	swarm "github.com/baboqoo/baboqoo/swarm/api/client"
 	"gopkg.in/urfave/cli.v1"
 )
 

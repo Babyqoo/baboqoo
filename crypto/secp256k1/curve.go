@@ -36,7 +36,7 @@ import (
 	"math/big"
 	"unsafe"
 
-	"github.com/baboqoo/go-baboqoo/common/math"
+	"github.com/baboqoo/baboqoo/common/math"
 )
 
 /*

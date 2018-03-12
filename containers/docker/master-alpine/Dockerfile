@@ -2,11 +2,11 @@ FROM alpine:3.7
 
 RUN \
   apk add --update go git make gcc musl-dev linux-headers ca-certificates && \
-  git clone --depth 1 --branch release/1.8 https://github.com/baboqoo/go-baboqoo && \
-  (cd go-baboqoo && make gbbq) && \
-  cp go-baboqoo/build/bin/gbbq /gbbq && \
+  git clone --depth 1 --branch release/1.8 https://github.com/baboqoo/baboqoo && \
+  (cd baboqoo && make gbbq) && \
+  cp baboqoo/build/bin/gbbq /gbbq && \
   apk del go git make gcc musl-dev linux-headers && \
-  rm -rf /go-baboqoo && rm -rf /var/cache/apk/*
+  rm -rf /baboqoo && rm -rf /var/cache/apk/*
 
 EXPOSE 8545
 EXPOSE 30303

@@ -6,10 +6,10 @@ package contract
 import (
 	"strings"
 
-	"github.com/baboqoo/go-baboqoo/accounts/abi"
-	"github.com/baboqoo/go-baboqoo/accounts/abi/bind"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/accounts/abi"
+	"github.com/baboqoo/baboqoo/accounts/abi/bind"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/core/types"
 )
 
 // FIFSRegistrarABI is the input ABI used to generate the binding from.

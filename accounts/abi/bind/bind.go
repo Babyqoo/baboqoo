@@ -1,23 +1,23 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2016 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 // Package bind generates Baboqoo contract Go bindings.
 //
-// Detailed usage document and tutorial available on the go-baboqoo Wiki page:
-// https://github.com/baboqoo/go-baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts
+// Detailed usage document and tutorial available on the baboqoo Wiki page:
+// https://github.com/baboqoo/baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts
 package bind
 
 import (
@@ -28,7 +28,7 @@ import (
 	"text/template"
 	"unicode"
 
-	"github.com/baboqoo/go-baboqoo/accounts/abi"
+	"github.com/baboqoo/baboqoo/accounts/abi"
 	"golang.org/x/tools/imports"
 )
 

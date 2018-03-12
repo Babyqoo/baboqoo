@@ -2,12 +2,12 @@ Pod::Spec.new do |spec|
   spec.name         = 'Gbbq'
   spec.version      = '{{.Version}}'
   spec.license      = { :type => 'GNU Lesser General Public License, Version 3.0' }
-  spec.homepage     = 'https://github.com/baboqoo/go-baboqoo'
+  spec.homepage     = 'https://github.com/baboqoo/baboqoo'
   spec.authors      = { {{range .Contributors}}
 		'{{.Name}}' => '{{.Email}}',{{end}}
 	}
   spec.summary      = 'iOS Baboqoo Client'
-  spec.source       = { :git => 'https://github.com/baboqoo/go-baboqoo.git', :commit => '{{.Commit}}' }
+  spec.source       = { :git => 'https://github.com/baboqoo/baboqoo.git', :commit => '{{.Commit}}' }
 
 	spec.platform = :ios
   spec.ios.deployment_target  = '9.0'

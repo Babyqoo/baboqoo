@@ -1,18 +1,18 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2017 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 // faucet is a Ether faucet backed by a light client.
 package main
@@ -41,23 +41,23 @@ import (
 	"sync"
 	"time"
 
-	"github.com/baboqoo/go-baboqoo/accounts"
-	"github.com/baboqoo/go-baboqoo/accounts/keystore"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/core/types"
-	"github.com/baboqoo/go-baboqoo/eth"
-	"github.com/baboqoo/go-baboqoo/eth/downloader"
-	"github.com/baboqoo/go-baboqoo/ethclient"
-	"github.com/baboqoo/go-baboqoo/ethstats"
-	"github.com/baboqoo/go-baboqoo/les"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/p2p/discv5"
-	"github.com/baboqoo/go-baboqoo/p2p/nat"
-	"github.com/baboqoo/go-baboqoo/params"
+	"github.com/baboqoo/baboqoo/accounts"
+	"github.com/baboqoo/baboqoo/accounts/keystore"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/eth"
+	"github.com/baboqoo/baboqoo/eth/downloader"
+	"github.com/baboqoo/baboqoo/ethclient"
+	"github.com/baboqoo/baboqoo/ethstats"
+	"github.com/baboqoo/baboqoo/les"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/p2p/discv5"
+	"github.com/baboqoo/baboqoo/p2p/nat"
+	"github.com/baboqoo/baboqoo/params"
 	"golang.org/x/net/websocket"
 )
 
@@ -450,7 +450,7 @@ func (f *faucet) apiHandler(conn *websocket.Conn) {
 		case *noauthFlag:
 			username, avatar, address, err = authNoAuth(msg.URL)
 		default:
-			err = errors.New("Something funky happened, please open an issue at https://github.com/baboqoo/go-baboqoo/issues")
+			err = errors.New("Something funky happened, please open an issue at https://github.com/baboqoo/baboqoo/issues")
 		}
 		if err != nil {
 			if err = sendError(conn, err); err != nil {

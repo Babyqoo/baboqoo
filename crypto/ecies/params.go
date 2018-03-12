@@ -42,7 +42,7 @@ import (
 	"fmt"
 	"hash"
 
-	ethcrypto "github.com/baboqoo/go-baboqoo/crypto"
+	ethcrypto "github.com/baboqoo/baboqoo/crypto"
 )
 
 var (

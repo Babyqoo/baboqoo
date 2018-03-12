@@ -5,8 +5,8 @@ Maintainer: {{.Author}}
 Build-Depends: debhelper (>= 8.0.0), golang-1.9
 Standards-Version: 3.9.5
 Homepage: https://ethereum.org
-Vcs-Git: git://github.com/baboqoo/go-baboqoo.git
-Vcs-Browser: https://github.com/baboqoo/go-baboqoo
+Vcs-Git: git://github.com/baboqoo/baboqoo.git
+Vcs-Browser: https://github.com/baboqoo/baboqoo
 
 Package: {{.Name}}
 Architecture: any

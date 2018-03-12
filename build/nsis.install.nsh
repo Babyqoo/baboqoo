@@ -3,9 +3,9 @@ InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
 # Links for "Add/Remove Programs"
-!define HELPURL "https://github.com/baboqoo/go-baboqoo/issues"
-!define UPDATEURL "https://github.com/baboqoo/go-baboqoo/releases"
-!define ABOUTURL "https://github.com/baboqoo/go-baboqoo#baboqoo-go"
+!define HELPURL "https://github.com/baboqoo/baboqoo/issues"
+!define UPDATEURL "https://github.com/baboqoo/baboqoo/releases"
+!define ABOUTURL "https://github.com/baboqoo/baboqoo#baboqoo-go"
 !define /date NOW "%Y%m%d"
 
 PageEx license

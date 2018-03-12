@@ -4,10 +4,10 @@ Official golang implementation of the Baboqoo protocol.
 
 [![API Reference](
 https://camo.githubusercontent.com/915b7be44ada53c290eb157634330494ebe3e30a/68747470733a2f2f676f646f632e6f72672f6769746875622e636f6d2f676f6c616e672f6764646f3f7374617475732e737667
-)](https://godoc.org/github.com/baboqoo/go-baboqoo)
-[![Go Report Card](https://goreportcard.com/badge/github.com/baboqoo/go-baboqoo)](https://goreportcard.com/report/github.com/baboqoo/go-baboqoo)
-[![Travis](https://travis-ci.org/baboqoo/go-baboqoo.svg?branch=master)](https://travis-ci.org/baboqoo/go-baboqoo)
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/baboqoo/go-baboqoo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+)](https://godoc.org/github.com/baboqoo/baboqoo)
+[![Go Report Card](https://goreportcard.com/badge/github.com/baboqoo/baboqoo)](https://goreportcard.com/report/github.com/baboqoo/baboqoo)
+[![Travis](https://travis-ci.org/baboqoo/baboqoo.svg?branch=master)](https://travis-ci.org/baboqoo/baboqoo)
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/baboqoo/baboqoo?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Automated builds are available for stable releases and the unstable master branch.
 Binary archives are published at https://gbbq.ethereum.org/downloads/.
@@ -15,7 +15,7 @@ Binary archives are published at https://gbbq.ethereum.org/downloads/.
 ## Building the source
 
 For prerequisites and detailed build instructions please read the
-[Installation Instructions](https://github.com/baboqoo/go-baboqoo/wiki/Building-Baboqoo)
+[Installation Instructions](https://github.com/baboqoo/baboqoo/wiki/Building-Baboqoo)
 on the wiki.
 
 Building gbbq requires both a Go (version 1.7 or later) and a C compiler.
@@ -30,12 +30,12 @@ or, to build the full suite of utilities:
 
 ## Executables
 
-The go-baboqoo project comes with several wrappers/executables found in the `cmd` directory.
+The baboqoo project comes with several wrappers/executables found in the `cmd` directory.
 
 | Command    | Description |
 |:----------:|-------------|
-| **`gbbq`** | Our main Baboqoo CLI client. It is the entry point into the Baboqoo network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Baboqoo network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gbbq --help` and the [CLI Wiki page](https://github.com/baboqoo/go-baboqoo/wiki/Command-Line-Options) for command line options. |
-| `abigen` | Source code generator to convert Baboqoo contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [Baboqoo contract ABIs](https://github.com/baboqoo/wiki/wiki/Baboqoo-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/baboqoo/go-baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts) wiki page for details. |
+| **`gbbq`** | Our main Baboqoo CLI client. It is the entry point into the Baboqoo network (main-, test- or private net), capable of running as a full node (default) archive node (retaining all historical state) or a light node (retrieving data live). It can be used by other processes as a gateway into the Baboqoo network via JSON RPC endpoints exposed on top of HTTP, WebSocket and/or IPC transports. `gbbq --help` and the [CLI Wiki page](https://github.com/baboqoo/baboqoo/wiki/Command-Line-Options) for command line options. |
+| `abigen` | Source code generator to convert Baboqoo contract definitions into easy to use, compile-time type-safe Go packages. It operates on plain [Baboqoo contract ABIs](https://github.com/baboqoo/wiki/wiki/Baboqoo-Contract-ABI) with expanded functionality if the contract bytecode is also available. However it also accepts Solidity source files, making development much more streamlined. Please see our [Native DApps](https://github.com/baboqoo/baboqoo/wiki/Native-DApps:-Go-bindings-to-Baboqoo-contracts) wiki page for details. |
 | `bootnode` | Stripped down version of our Baboqoo client implementation that only takes part in the network node discovery protocol, but does not run any of the higher level application protocols. It can be used as a lightweight bootstrap node to aid in finding peers in private networks. |
 | `evm` | Developer utility version of the EVM (Baboqoo Virtual Machine) that is capable of running bytecode snippets within a configurable environment and execution mode. Its purpose is to allow isolated, fine-grained debugging of EVM opcodes (e.g. `evm --code 60ff60ff --debug`). |
 | `gbbqrpctest` | Developer utility tool to support our [baboqoo/rpc-test](https://github.com/baboqoo/rpc-tests) test suite which validates baseline conformity to the [Baboqoo JSON RPC](https://github.com/baboqoo/wiki/wiki/JSON-RPC) specs. Please see the [test suite's readme](https://github.com/baboqoo/rpc-tests/blob/master/README.md) for details. |
@@ -46,7 +46,7 @@ The go-baboqoo project comes with several wrappers/executables found in the `cmd
 ## Running gbbq
 
 Going through all the possible command line flags is out of scope here (please consult our
-[CLI Wiki page](https://github.com/baboqoo/go-baboqoo/wiki/Command-Line-Options)), but we've
+[CLI Wiki page](https://github.com/baboqoo/baboqoo/wiki/Command-Line-Options)), but we've
 enumerated a few common parameter combos to get you up to speed quickly on how you can run your
 own Gbbq instance.
 
@@ -66,9 +66,9 @@ This command will:
  * Start gbbq in fast sync mode (default, can be changed with the `--syncmode` flag), causing it to
    download more data in exchange for avoiding processing the entire history of the Baboqoo network,
    which is very CPU intensive.
- * Start up Gbbq's built-in interactive [JavaScript console](https://github.com/baboqoo/go-baboqoo/wiki/JavaScript-Console),
+ * Start up Gbbq's built-in interactive [JavaScript console](https://github.com/baboqoo/baboqoo/wiki/JavaScript-Console),
    (via the trailing `console` subcommand) through which you can invoke all official [`web3` methods](https://github.com/baboqoo/wiki/wiki/JavaScript-API)
-   as well as Gbbq's own [management APIs](https://github.com/baboqoo/go-baboqoo/wiki/Management-APIs).
+   as well as Gbbq's own [management APIs](https://github.com/baboqoo/baboqoo/wiki/Management-APIs).
    This too is optional and if you leave it out you can always attach to an already running Gbbq instance
    with `gbbq attach`.
 
@@ -103,7 +103,7 @@ separate the two networks and will not make any accounts available between them.
 
 ### Full node on the Rinkeby test network
 
-The above test network is a cross client one based on the ethash proof-of-work consensus algorithm. As such, it has certain extra overhead and is more susceptible to reorganization attacks due to the network's low difficulty / security. Go Baboqoo also supports connecting to a proof-of-authority based test network called [*Rinkeby*](https://www.rinkeby.io) (operated by members of the community). This network is lighter, more secure, but is only supported by go-baboqoo.
+The above test network is a cross client one based on the ethash proof-of-work consensus algorithm. As such, it has certain extra overhead and is more susceptible to reorganization attacks due to the network's low difficulty / security. Go Baboqoo also supports connecting to a proof-of-authority based test network called [*Rinkeby*](https://www.rinkeby.io) (operated by members of the community). This network is lighter, more secure, but is only supported by baboqoo.
 
 ```
 $ gbbq --rinkeby console
@@ -144,7 +144,7 @@ Do not forget `--rpcaddr 0.0.0.0`, if you want to access RPC from other containe
 As a developer, sooner rather than later you'll want to start interacting with Gbbq and the Baboqoo
 network via your own programs and not manually through the console. To aid this, Gbbq has built in
 support for a JSON-RPC based APIs ([standard APIs](https://github.com/baboqoo/wiki/wiki/JSON-RPC) and
-[Gbbq specific APIs](https://github.com/baboqoo/go-baboqoo/wiki/Management-APIs)). These can be
+[Gbbq specific APIs](https://github.com/baboqoo/baboqoo/wiki/Management-APIs)). These can be
 exposed via HTTP, WebSockets and IPC (unix sockets on unix based platforms, and named pipes on Windows).
 
 The IPC interface is enabled by default and exposes all the APIs supported by Gbbq, whereas the HTTP
@@ -282,9 +282,9 @@ limit blocks converge to (`--targetgaslimit`) and the price transactions are acc
 Thank you for considering to help out with the source code! We welcome contributions from
 anyone on the internet, and are grateful for even the smallest of fixes!
 
-If you'd like to contribute to go-baboqoo, please fork, fix, commit and send a pull request
+If you'd like to contribute to baboqoo, please fork, fix, commit and send a pull request
 for the maintainers to review and merge into the main code base. If you wish to submit more
-complex changes though, please check up with the core devs first on [our gitter channel](https://gitter.im/baboqoo/go-baboqoo)
+complex changes though, please check up with the core devs first on [our gitter channel](https://gitter.im/baboqoo/baboqoo)
 to ensure those changes are in line with the general philosophy of the project and/or get some
 early feedback which can make both your efforts much lighter as well as our review and merge
 procedures quick and simple.
@@ -297,15 +297,15 @@ Please make sure your contributions adhere to our coding guidelines:
  * Commit messages should be prefixed with the package(s) they modify.
    * E.g. "eth, rpc: make trace configs optional"
 
-Please see the [Developers' Guide](https://github.com/baboqoo/go-baboqoo/wiki/Developers'-Guide)
+Please see the [Developers' Guide](https://github.com/baboqoo/baboqoo/wiki/Developers'-Guide)
 for more details on configuring your environment, managing project dependencies and testing procedures.
 
 ## License
 
-The go-baboqoo library (i.e. all code outside of the `cmd` directory) is licensed under the
+The baboqoo library (i.e. all code outside of the `cmd` directory) is licensed under the
 [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html), also
 included in our repository in the `COPYING.LESSER` file.
 
-The go-baboqoo binaries (i.e. all code inside of the `cmd` directory) is licensed under the
+The baboqoo binaries (i.e. all code inside of the `cmd` directory) is licensed under the
 [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html), also included
 in our repository in the `COPYING` file.

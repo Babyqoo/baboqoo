@@ -1,20 +1,20 @@
-// Copyright 2015 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2015 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
-// Package utils contains internal helper functions for go-baboqoo commands.
+// Package utils contains internal helper functions for baboqoo commands.
 package utils
 
 import (
@@ -28,34 +28,34 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/baboqoo/go-baboqoo/accounts"
-	"github.com/baboqoo/go-baboqoo/accounts/keystore"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/common/fdlimit"
-	"github.com/baboqoo/go-baboqoo/consensus"
-	"github.com/baboqoo/go-baboqoo/consensus/clique"
-	"github.com/baboqoo/go-baboqoo/consensus/ethash"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/core/state"
-	"github.com/baboqoo/go-baboqoo/core/vm"
-	"github.com/baboqoo/go-baboqoo/crypto"
-	"github.com/baboqoo/go-baboqoo/dashboard"
-	"github.com/baboqoo/go-baboqoo/eth"
-	"github.com/baboqoo/go-baboqoo/eth/downloader"
-	"github.com/baboqoo/go-baboqoo/eth/gasprice"
-	"github.com/baboqoo/go-baboqoo/ethdb"
-	"github.com/baboqoo/go-baboqoo/ethstats"
-	"github.com/baboqoo/go-baboqoo/les"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/metrics"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/p2p/discv5"
-	"github.com/baboqoo/go-baboqoo/p2p/nat"
-	"github.com/baboqoo/go-baboqoo/p2p/netutil"
-	"github.com/baboqoo/go-baboqoo/params"
-	whisper "github.com/baboqoo/go-baboqoo/whisper/whisperv5"
+	"github.com/baboqoo/baboqoo/accounts"
+	"github.com/baboqoo/baboqoo/accounts/keystore"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/common/fdlimit"
+	"github.com/baboqoo/baboqoo/consensus"
+	"github.com/baboqoo/baboqoo/consensus/clique"
+	"github.com/baboqoo/baboqoo/consensus/ethash"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/core/state"
+	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/baboqoo/baboqoo/dashboard"
+	"github.com/baboqoo/baboqoo/eth"
+	"github.com/baboqoo/baboqoo/eth/downloader"
+	"github.com/baboqoo/baboqoo/eth/gasprice"
+	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/baboqoo/baboqoo/ethstats"
+	"github.com/baboqoo/baboqoo/les"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/metrics"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/p2p/discv5"
+	"github.com/baboqoo/baboqoo/p2p/nat"
+	"github.com/baboqoo/baboqoo/p2p/netutil"
+	"github.com/baboqoo/baboqoo/params"
+	whisper "github.com/baboqoo/baboqoo/whisper/whisperv5"
 	"gopkg.in/urfave/cli.v1"
 )
 

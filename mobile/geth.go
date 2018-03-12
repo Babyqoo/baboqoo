@@ -1,18 +1,18 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2016 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 // Contains all the wrappers from the node package to support client side node
 // management on mobile platforms.
@@ -24,22 +24,22 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/eth"
-	"github.com/baboqoo/go-baboqoo/eth/downloader"
-	"github.com/baboqoo/go-baboqoo/ethclient"
-	"github.com/baboqoo/go-baboqoo/ethstats"
-	"github.com/baboqoo/go-baboqoo/les"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/nat"
-	"github.com/baboqoo/go-baboqoo/params"
-	whisper "github.com/baboqoo/go-baboqoo/whisper/whisperv5"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/eth"
+	"github.com/baboqoo/baboqoo/eth/downloader"
+	"github.com/baboqoo/baboqoo/ethclient"
+	"github.com/baboqoo/baboqoo/ethstats"
+	"github.com/baboqoo/baboqoo/les"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/nat"
+	"github.com/baboqoo/baboqoo/params"
+	whisper "github.com/baboqoo/baboqoo/whisper/whisperv5"
 )
 
 // NodeConfig represents the collection of configuration values to fine tune the Gbbq
 // node embedded into a mobile process. The available values are a subset of the
-// entire API provided by go-baboqoo to reduce the maintenance surface and dev
+// entire API provided by baboqoo to reduce the maintenance surface and dev
 // complexity.
 type NodeConfig struct {
 	// Bootstrap nodes used to establish connectivity with the rest of the network.

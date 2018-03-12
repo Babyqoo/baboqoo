@@ -1,18 +1,18 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2017 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -25,13 +25,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/p2p/simulations"
-	"github.com/baboqoo/go-baboqoo/p2p/simulations/adapters"
-	"github.com/baboqoo/go-baboqoo/rpc"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/p2p/simulations"
+	"github.com/baboqoo/baboqoo/p2p/simulations/adapters"
+	"github.com/baboqoo/baboqoo/rpc"
 )
 
 var adapterType = flag.String("adapter", "sim", `node adapter to use (one of "sim", "exec" or "docker")`)

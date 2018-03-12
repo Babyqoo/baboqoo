@@ -5,7 +5,7 @@ package whisperv6
 import (
 	"encoding/json"
 
-	"github.com/baboqoo/go-baboqoo/common/hexutil"
+	"github.com/baboqoo/baboqoo/common/hexutil"
 )
 
 var _ = (*messageOverride)(nil)

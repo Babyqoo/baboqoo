@@ -1,18 +1,18 @@
-// Copyright 2015 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2015 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package common
 
@@ -26,7 +26,7 @@ import (
 
 // Report gives off a warning requesting the user to submit an issue to the github tracker.
 func Report(extra ...interface{}) {
-	fmt.Fprintln(os.Stderr, "You've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://github.com/baboqoo/go-baboqoo/issues")
+	fmt.Fprintln(os.Stderr, "You've encountered a sought after, hard to reproduce bug. Please report this to the developers <3 https://github.com/baboqoo/baboqoo/issues")
 	fmt.Fprintln(os.Stderr, extra...)
 
 	_, file, line, _ := runtime.Caller(1)

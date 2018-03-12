@@ -1,18 +1,18 @@
-// Copyright 2015 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2015 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 // This file contains some shares testing functionality, common to  multiple
 // different files and modules being tested.
@@ -27,18 +27,18 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/consensus/ethash"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/core/types"
-	"github.com/baboqoo/go-baboqoo/core/vm"
-	"github.com/baboqoo/go-baboqoo/crypto"
-	"github.com/baboqoo/go-baboqoo/eth/downloader"
-	"github.com/baboqoo/go-baboqoo/ethdb"
-	"github.com/baboqoo/go-baboqoo/event"
-	"github.com/baboqoo/go-baboqoo/p2p"
-	"github.com/baboqoo/go-baboqoo/p2p/discover"
-	"github.com/baboqoo/go-baboqoo/params"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/consensus/ethash"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/core/vm"
+	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/baboqoo/baboqoo/eth/downloader"
+	"github.com/baboqoo/baboqoo/ethdb"
+	"github.com/baboqoo/baboqoo/event"
+	"github.com/baboqoo/baboqoo/p2p"
+	"github.com/baboqoo/baboqoo/p2p/discover"
+	"github.com/baboqoo/baboqoo/params"
 )
 
 var (

@@ -5,12 +5,12 @@ package eth
 import (
 	"math/big"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/common/hexutil"
-	"github.com/baboqoo/go-baboqoo/consensus/ethash"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/eth/downloader"
-	"github.com/baboqoo/go-baboqoo/eth/gasprice"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/common/hexutil"
+	"github.com/baboqoo/baboqoo/consensus/ethash"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/eth/downloader"
+	"github.com/baboqoo/baboqoo/eth/gasprice"
 )
 
 var _ = (*configMarshaling)(nil)

@@ -1,18 +1,18 @@
-// Copyright 2016 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2016 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package api
 
@@ -22,14 +22,14 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/contracts/ens"
-	"github.com/baboqoo/go-baboqoo/crypto"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/node"
-	"github.com/baboqoo/go-baboqoo/swarm/network"
-	"github.com/baboqoo/go-baboqoo/swarm/services/swap"
-	"github.com/baboqoo/go-baboqoo/swarm/storage"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/contracts/ens"
+	"github.com/baboqoo/baboqoo/crypto"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/node"
+	"github.com/baboqoo/baboqoo/swarm/network"
+	"github.com/baboqoo/baboqoo/swarm/services/swap"
+	"github.com/baboqoo/baboqoo/swarm/storage"
 )
 
 const (

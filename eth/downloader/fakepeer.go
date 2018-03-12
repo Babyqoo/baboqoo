@@ -1,28 +1,28 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of the go-baboqoo library.
+// Copyright 2017 The baboqoo Authors
+// This file is part of the baboqoo library.
 //
-// The go-baboqoo library is free software: you can redistribute it and/or modify
+// The baboqoo library is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Lesser General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// The go-baboqoo library is distributed in the hope that it will be useful,
+// The baboqoo library is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU Lesser General Public License for more details.
 //
 // You should have received a copy of the GNU Lesser General Public License
-// along with the go-baboqoo library. If not, see <http://www.gnu.org/licenses/>.
+// along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
 package downloader
 
 import (
 	"math/big"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/core/types"
-	"github.com/baboqoo/go-baboqoo/ethdb"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/core/types"
+	"github.com/baboqoo/baboqoo/ethdb"
 )
 
 // FakePeer is a mock downloader peer that operates on a local database instance

@@ -1,18 +1,18 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2017 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -28,13 +28,13 @@ import (
 
 	cli "gopkg.in/urfave/cli.v1"
 
-	"github.com/baboqoo/go-baboqoo/cmd/utils"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/node"
+	"github.com/baboqoo/baboqoo/cmd/utils"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/log"
+	"github.com/baboqoo/baboqoo/node"
 	"github.com/naoina/toml"
 
-	bzzapi "github.com/baboqoo/go-baboqoo/swarm/api"
+	bzzapi "github.com/baboqoo/baboqoo/swarm/api"
 )
 
 var (
@@ -84,7 +84,7 @@ var tomlSettings = toml.Config{
 	MissingField: func(rt reflect.Type, field string) error {
 		link := ""
 		if unicode.IsUpper(rune(rt.Name()[0])) && rt.PkgPath() != "main" {
-			link = fmt.Sprintf(", check github.com/baboqoo/go-baboqoo/swarm/api/config.go for available fields")
+			link = fmt.Sprintf(", check github.com/baboqoo/baboqoo/swarm/api/config.go for available fields")
 		}
 		return fmt.Errorf("field '%s' is not defined in %s%s", field, rt.String(), link)
 	},

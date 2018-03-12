@@ -1,18 +1,18 @@
-// Copyright 2017 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2017 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -21,11 +21,11 @@ import (
 	"errors"
 	"math"
 
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/common/hexutil"
-	"github.com/baboqoo/go-baboqoo/consensus/ethash"
-	"github.com/baboqoo/go-baboqoo/core"
-	"github.com/baboqoo/go-baboqoo/params"
+	"github.com/baboqoo/baboqoo/common"
+	"github.com/baboqoo/baboqoo/common/hexutil"
+	"github.com/baboqoo/baboqoo/consensus/ethash"
+	"github.com/baboqoo/baboqoo/core"
+	"github.com/baboqoo/baboqoo/params"
 )
 
 // cppBaboqooGenesisSpec represents the genesis specification format used by the
@@ -85,10 +85,10 @@ type cppBaboqooGenesisSpecLinearPricing struct {
 	Word uint64 `json:"word"`
 }
 
-// newCppBaboqooGenesisSpec converts a go-baboqoo genesis block into a Parity specific
+// newCppBaboqooGenesisSpec converts a baboqoo genesis block into a Parity specific
 // chain specification format.
 func newCppBaboqooGenesisSpec(network string, genesis *core.Genesis) (*cppBaboqooGenesisSpec, error) {
-	// Only ethash is currently supported between go-baboqoo and cpp-baboqoo
+	// Only ethash is currently supported between baboqoo and cpp-baboqoo
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}
@@ -256,10 +256,10 @@ type parityChainSpecAltBnPairingPricing struct {
 	Pair uint64 `json:"pair"`
 }
 
-// newParityChainSpec converts a go-baboqoo genesis block into a Parity specific
+// newParityChainSpec converts a baboqoo genesis block into a Parity specific
 // chain specification format.
 func newParityChainSpec(network string, genesis *core.Genesis, bootnodes []string) (*parityChainSpec, error) {
-	// Only ethash is currently supported between go-baboqoo and Parity
+	// Only ethash is currently supported between baboqoo and Parity
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}
@@ -355,10 +355,10 @@ type pyBaboqooGenesisSpec struct {
 	ParentHash common.Hash       `json:"parentHash"`
 }
 
-// newPyBaboqooGenesisSpec converts a go-baboqoo genesis block into a Parity specific
+// newPyBaboqooGenesisSpec converts a baboqoo genesis block into a Parity specific
 // chain specification format.
 func newPyBaboqooGenesisSpec(network string, genesis *core.Genesis) (*pyBaboqooGenesisSpec, error) {
-	// Only ethash is currently supported between go-baboqoo and pybaboqoo
+	// Only ethash is currently supported between baboqoo and pybaboqoo
 	if genesis.Config.Ethash == nil {
 		return nil, errors.New("unsupported consensus engine")
 	}

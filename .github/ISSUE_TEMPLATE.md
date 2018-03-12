@@ -6,7 +6,7 @@ For general questions please use the gitter channel or the baboqoo stack exchang
 
 #### System information
 
-Geth version: `gbbq version`
+Gbbq version: `gbbq version`
 OS & Version: Windows/Linux/OSX
 Commit hash : (if `develop`)
 

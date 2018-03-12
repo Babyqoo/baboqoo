@@ -682,7 +682,7 @@ func doWindowsInstaller(cmdline []string) {
 	// first section contains the gbbq binary, second section holds the dev tools.
 	templateData := map[string]interface{}{
 		"License":  "COPYING",
-		"Geth":     gbbqTool,
+		"Gbbq":     gbbqTool,
 		"DevTools": devTools,
 	}
 	build.Render("build/nsis.gbbq.nsi", filepath.Join(*workdir, "gbbq.nsi"), 0644, nil)
@@ -884,8 +884,8 @@ func doXCodeFramework(cmdline []string) {
 	// Prepare and upload a PodSpec to CocoaPods
 	if *deploy != "" {
 		meta := newPodMetadata(env, archive)
-		build.Render("build/pod.podspec", "Geth.podspec", 0755, meta)
-		build.MustRunCommand("pod", *deploy, "push", "Geth.podspec", "--allow-warnings", "--verbose")
+		build.Render("build/pod.podspec", "Gbbq.podspec", 0755, meta)
+		build.MustRunCommand("pod", *deploy, "push", "Gbbq.podspec", "--allow-warnings", "--verbose")
 	}
 }
 

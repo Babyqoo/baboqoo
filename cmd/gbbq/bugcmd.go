@@ -1,18 +1,18 @@
-// Copyright 2017 The go-ethereum Authors
-// This file is part of go-ethereum.
+// Copyright 2017 The baboqoo Authors
+// This file is part of baboqoo.
 //
-// go-ethereum is free software: you can redistribute it and/or modify
+// baboqoo is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-ethereum is distributed in the hope that it will be useful,
+// baboqoo is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
+// along with baboqoo. If not, see <http://www.gnu.org/licenses/>.
 
 package main
 
@@ -26,10 +26,10 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/cmd/internal/browser"
-	"github.com/ethereum/go-ethereum/params"
+	"github.com/babyqoo/baboqoo/cmd/internal/browser"
+	"github.com/babyqoo/baboqoo/params"
 
-	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/babyqoo/baboqoo/cmd/utils"
 	cli "gopkg.in/urfave/cli.v1"
 )
 
@@ -41,9 +41,9 @@ var bugCommand = cli.Command{
 	Category:  "MISCELLANEOUS COMMANDS",
 }
 
-const issueUrl = "https://github.com/ethereum/go-ethereum/issues/new"
+const issueUrl = "https://github.com/babyqoo/baboqoo/issues/new"
 
-// reportBug reports a bug by opening a new URL to the go-ethereum GH issue
+// reportBug reports a bug by opening a new URL to the baboqoo GH issue
 // tracker and setting default values as the issue body.
 func reportBug(ctx *cli.Context) error {
 	// execute template and write contents to buff

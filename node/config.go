@@ -227,9 +227,9 @@ func DefaultWSEndpoint() string {
 // NodeName returns the devp2p node identifier.
 func (c *Config) NodeName() string {
 	name := c.name()
-	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
+	// Backwards compatibility: previous versions used title-cased "Gbbq", keep that.
 	if name == "gbbq" || name == "gbbq-testnet" {
-		name = "Geth"
+		name = "Gbbq"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent
@@ -254,7 +254,7 @@ func (c *Config) name() string {
 }
 
 // These resources are resolved differently for "gbbq" instances.
-var isOldGethResource = map[string]bool{
+var isOldGbbqResource = map[string]bool{
 	"chaindata":          true,
 	"nodes":              true,
 	"nodekey":            true,
@@ -272,7 +272,7 @@ func (c *Config) resolvePath(path string) string {
 	}
 	// Backwards-compatibility: ensure that data directory files created
 	// by gbbq 1.4 are used if they exist.
-	if c.name() == "gbbq" && isOldGethResource[path] {
+	if c.name() == "gbbq" && isOldGbbqResource[path] {
 		oldpath := ""
 		if c.Name == "gbbq" {
 			oldpath = filepath.Join(c.DataDir, path)

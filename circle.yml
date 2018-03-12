@@ -23,7 +23,7 @@ dependencies:
 
 test:
   override:
-    # Build Geth and move into a known folder
+    # Build Gbbq and move into a known folder
     - make gbbq
     - cp ./build/bin/gbbq $HOME/gbbq
 

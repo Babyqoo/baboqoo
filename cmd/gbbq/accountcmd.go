@@ -306,7 +306,7 @@ func accountCreate(ctx *cli.Context) error {
 	}
 
 	password := getPassPhrase("Your new account is locked with a password. Please give a password. Do not forget this password.", true, 0, utils.MakePasswordList(ctx))
-gbbqConfig
+
 	address, err := keystore.StoreKey(keydir, password, scryptN, scryptP)
 
 	if err != nil {

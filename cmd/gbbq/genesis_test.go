@@ -100,11 +100,11 @@ func TestCustomGenesis(t *testing.T) {
 		runGbbq(t, "--datadir", datadir, "init", json).WaitExit()
 
 		// Query the custom genesis block
-		geth := runGbbq(t,
+		gbbq := runGbbq(t,
 			"--datadir", datadir, "--maxpeers", "0", "--port", "0",
 			"--nodiscover", "--nat", "none", "--ipcdisable",
 			"--exec", tt.query, "console")
-		geth.ExpectRegexp(tt.result)
-		geth.ExpectExit()
+		gbbq.ExpectRegexp(tt.result)
+		gbbq.ExpectExit()
 	}
 }

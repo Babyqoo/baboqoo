@@ -1,20 +1,20 @@
-// Copyright 2014 The go-baboqoo Authors
-// This file is part of go-baboqoo.
+// Copyright 2014 The go-ethereum Authors
+// This file is part of go-ethereum.
 //
-// go-baboqoo is free software: you can redistribute it and/or modify
+// go-ethereum is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
 // the Free Software Foundation, either version 3 of the License, or
 // (at your option) any later version.
 //
-// go-baboqoo is distributed in the hope that it will be useful,
+// go-ethereum is distributed in the hope that it will be useful,
 // but WITHOUT ANY WARRANTY; without even the implied warranty of
 // MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 // GNU General Public License for more details.
 //
 // You should have received a copy of the GNU General Public License
-// along with go-baboqoo. If not, see <http://www.gnu.org/licenses/>.
+// along with go-ethereum. If not, see <http://www.gnu.org/licenses/>.
 
-// gbbq is the official command-line client for Baboqoo.
+// geth is the official command-line client for Ethereum.
 package main
 
 import (
@@ -25,31 +25,31 @@ import (
 	"strings"
 	"time"
 
-	"github.com/baboqoo/go-baboqoo/accounts"
-	"github.com/baboqoo/go-baboqoo/accounts/keystore"
-	"github.com/baboqoo/go-baboqoo/cmd/utils"
-	"github.com/baboqoo/go-baboqoo/common"
-	"github.com/baboqoo/go-baboqoo/console"
-	"github.com/baboqoo/go-baboqoo/eth"
-	"github.com/baboqoo/go-baboqoo/ethclient"
-	"github.com/baboqoo/go-baboqoo/internal/debug"
-	"github.com/baboqoo/go-baboqoo/log"
-	"github.com/baboqoo/go-baboqoo/metrics"
-	"github.com/baboqoo/go-baboqoo/node"
+	"github.com/ethereum/go-ethereum/accounts"
+	"github.com/ethereum/go-ethereum/accounts/keystore"
+	"github.com/ethereum/go-ethereum/cmd/utils"
+	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/console"
+	"github.com/ethereum/go-ethereum/eth"
+	"github.com/ethereum/go-ethereum/ethclient"
+	"github.com/ethereum/go-ethereum/internal/debug"
+	"github.com/ethereum/go-ethereum/log"
+	"github.com/ethereum/go-ethereum/metrics"
+	"github.com/ethereum/go-ethereum/node"
 	"gopkg.in/urfave/cli.v1"
 )
 
 const (
-	clientIdentifier = "gbbq" // Client identifier to advertise over the network
+	clientIdentifier = "geth" // Client identifier to advertise over the network
 )
 
 var (
 	// Git SHA1 commit hash of the release (set via linker flags)
 	gitCommit = ""
-	// Baboqoo address of the Geth release oracle.
+	// Ethereum address of the Geth release oracle.
 	relOracle = common.HexToAddress("0xfa7b9770ca4cb04296cac84f37736d4041251cdf")
 	// The app that holds all commands and flags.
-	app = utils.NewApp(gitCommit, "the go-baboqoo command line interface")
+	app = utils.NewApp(gitCommit, "the go-ethereum command line interface")
 	// flags that configure the node
 	nodeFlags = []cli.Flag{
 		utils.IdentityFlag,
@@ -148,9 +148,9 @@ var (
 
 func init() {
 	// Initialize the CLI app and start Geth
-	app.Action = gbbq
+	app.Action = geth
 	app.HideVersion = true // we have a command to print the version
-	app.Copyright = "Copyright 2013-2017 The go-baboqoo Authors"
+	app.Copyright = "Copyright 2013-2017 The go-ethereum Authors"
 	app.Commands = []cli.Command{
 		// See chaincmd.go:
 		initCommand,
@@ -211,10 +211,10 @@ func main() {
 	}
 }
 
-// gbbq is the main entry point into the system if no special subcommand is ran.
+// geth is the main entry point into the system if no special subcommand is ran.
 // It creates a default node based on the command line arguments and runs it in
 // blocking mode, waiting for it to be shut down.
-func gbbq(ctx *cli.Context) error {
+func geth(ctx *cli.Context) error {
 	node := makeFullNode(ctx)
 	startNode(ctx, node)
 	node.Wait()
@@ -281,26 +281,26 @@ func startNode(ctx *cli.Context, stack *node.Node) {
 	}()
 	// Start auxiliary services if enabled
 	if ctx.GlobalBool(utils.MiningEnabledFlag.Name) || ctx.GlobalBool(utils.DeveloperFlag.Name) {
-		// Mining only makes sense if a full Baboqoo node is running
+		// Mining only makes sense if a full Ethereum node is running
 		if ctx.GlobalBool(utils.LightModeFlag.Name) || ctx.GlobalString(utils.SyncModeFlag.Name) == "light" {
 			utils.Fatalf("Light clients do not support mining")
 		}
-		var baboqoo *eth.Baboqoo
-		if err := stack.Service(&baboqoo); err != nil {
-			utils.Fatalf("Baboqoo service not running: %v", err)
+		var ethereum *eth.Ethereum
+		if err := stack.Service(&ethereum); err != nil {
+			utils.Fatalf("Ethereum service not running: %v", err)
 		}
 		// Use a reduced number of threads if requested
 		if threads := ctx.GlobalInt(utils.MinerThreadsFlag.Name); threads > 0 {
 			type threaded interface {
 				SetThreads(threads int)
 			}
-			if th, ok := baboqoo.Engine().(threaded); ok {
+			if th, ok := ethereum.Engine().(threaded); ok {
 				th.SetThreads(threads)
 			}
 		}
 		// Set the gas price to the limits from the CLI and start mining
-		baboqoo.TxPool().SetGasPrice(utils.GlobalBig(ctx, utils.GasPriceFlag.Name))
-		if err := baboqoo.StartMining(true); err != nil {
+		ethereum.TxPool().SetGasPrice(utils.GlobalBig(ctx, utils.GasPriceFlag.Name))
+		if err := ethereum.StartMining(true); err != nil {
 			utils.Fatalf("Failed to start mining: %v", err)
 		}
 	}

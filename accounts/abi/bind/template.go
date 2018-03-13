@@ -427,8 +427,8 @@ const tmplSourceJava = `
 
 package {{.Package}};
 
-import org.baboqoo.gbbq.*;
-import org.baboqoo.gbbq.internal.*;
+import org.baboqoo.geth.*;
+import org.baboqoo.geth.internal.*;
 
 {{range $contract := .Contracts}}
 	public class {{.Type}} {

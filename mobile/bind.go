@@ -16,7 +16,7 @@
 
 // Contains all the wrappers from the bind package.
 
-package gbbq
+package geth
 
 import (
 	"math/big"

@@ -1,6 +1,6 @@
 ## Go Baboqoo Dashboard
 
-The dashboard is a data visualizer integrated into gbbq, intended to collect and visualize useful information of an Baboqoo node. It consists of two parts:
+The dashboard is a data visualizer integrated into geth, intended to collect and visualize useful information of an Baboqoo node. It consists of two parts:
 
 * The client visualizes the collected data.
 * The server collects the data, and updates the clients.
@@ -16,11 +16,11 @@ $ (cd dashboard/assets && npm install)
 $ (cd dashboard/assets && ./node_modules/.bin/flow-typed install)
 ```
 
-Normally the dashboard assets are bundled into Gbbq via `go-bindata` to avoid external dependencies. Rebuilding Gbbq after each UI modification however is not feasible from a developer perspective. Instead, we can run `webpack` in watch mode to automatically rebundle the UI, and ask `gbbq` to use external assets to not rely on compiled resources:
+Normally the dashboard assets are bundled into Gbbq via `go-bindata` to avoid external dependencies. Rebuilding Gbbq after each UI modification however is not feasible from a developer perspective. Instead, we can run `webpack` in watch mode to automatically rebundle the UI, and ask `geth` to use external assets to not rely on compiled resources:
 
 ```
 $ (cd dashboard/assets && ./node_modules/.bin/webpack --watch)
-$ gbbq --dashboard --dashboard.assets=dashboard/assets --vmodule=dashboard=5
+$ geth --dashboard --dashboard.assets=dashboard/assets --vmodule=dashboard=5
 ```
 
 To bundle up the final UI into Gbbq, run `go generate`:

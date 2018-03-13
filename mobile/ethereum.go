@@ -16,7 +16,7 @@
 
 // Contains all the wrappers from the baboqoo root package.
 
-package gbbq
+package geth
 
 import (
 	"errors"

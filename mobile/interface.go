@@ -16,7 +16,7 @@
 
 // Contains perverted wrappers to allow crossing over empty interfaces.
 
-package gbbq
+package geth
 
 import (
 	"errors"

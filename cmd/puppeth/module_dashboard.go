@@ -84,7 +84,7 @@ var dashboardContent = `
 									{{if .FaucetPage}}<li id="faucet_menu"><a onclick="load('#faucet')"><i class="fa fa-bath"></i> Crypto Faucet</a></li>{{end}}
 									<li id="connect_menu"><a><i class="fa fa-plug"></i> Connect Yourself</a>
 										<ul id="connect_list" class="nav child_menu">
-											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#gbbq')">Go Baboqoo: Gbbq</a></li>
+											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#geth')">Go Baboqoo: Gbbq</a></li>
 											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#mist')">Go Baboqoo: Wallet & Mist</a></li>
 											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#mobile')">Go Baboqoo: Android & iOS</a></li>{{if .Ethash}}
 											<li><a onclick="$('#connect_menu').removeClass('active'); $('#connect_list').toggle(); load('#other')">Other Baboqoo Clients</a></li>{{end}}
@@ -97,7 +97,7 @@ var dashboardContent = `
 					</div>
 				</div>
 				<div class="right_col" role="main" style="padding: 0 !important">
-					<div id="gbbq" hidden style="padding: 16px;">
+					<div id="geth" hidden style="padding: 16px;">
 						<div class="page-title">
 							<div class="title_left">
 								<h3>Connect Yourself &ndash; Go Baboqoo: Gbbq</h3>
@@ -116,11 +116,11 @@ var dashboardContent = `
 										<p>Initial processing required to execute all transactions may require non-negligible time and disk capacity required to store all past state may be non-insignificant. High end machines with SSD storage, modern CPUs and 8GB+ RAM are recommended.</p>
 										<br/>
 										<p>To run an archive node, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and start Gbbq with:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
-											<pre>gbbq --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=1024 --syncmode=full{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=1024 --syncmode=full{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Gbbq from <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">https://gbbq.ethereum.org/downloads/</a>.</p>
+										<p>You can download Gbbq from <a href="https://geth.ethereum.org/downloads/" target="about:blank">https://geth.ethereum.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -135,11 +135,11 @@ var dashboardContent = `
 										<p>Initial processing required to synchronize is more bandwidth intensive, but is light on the CPU and has significantly reduced disk requirements. Mid range machines with HDD storage, decent CPUs and 4GB+ RAM should be enough.</p>
 										<br/>
 										<p>To run a full node, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and start Gbbq with:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
-											<pre>gbbq --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=512{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=512{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Gbbq from <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">https://gbbq.ethereum.org/downloads/</a>.</p>
+										<p>You can download Gbbq from <a href="https://geth.ethereum.org/downloads/" target="about:blank">https://geth.ethereum.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -157,11 +157,11 @@ var dashboardContent = `
 										<p>Initial processing required to synchronize is light, as it only verifies the validity of the headers; similarly required disk capacity is small, tallying around 500 bytes per header. Low end machines with arbitrary storage, weak CPUs and 512MB+ RAM should cope well.</p>
 										<br/>
 										<p>To run a light node, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and start Gbbq with:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
-											<pre>gbbq --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Gbbq from <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">https://gbbq.ethereum.org/downloads/</a>.</p>
+										<p>You can download Gbbq from <a href="https://geth.ethereum.org/downloads/" target="about:blank">https://geth.ethereum.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -176,11 +176,11 @@ var dashboardContent = `
 										<p>Initial processing required to synchronize is light, as it only verifies the validity of the headers; similarly required disk capacity is small, tallying around 500 bytes per header. Embedded machines with arbitrary storage, low power CPUs and 128MB+ RAM may work.</p>
 										<br/>
 										<p>To run an embedded node, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and start Gbbq with:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
-											<pre>gbbq --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=16 --ethash.cachesinmem=1 --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --networkid={{.NetworkID}} --datadir=$HOME/.{{.Network}} --cache=16 --ethash.cachesinmem=1 --syncmode=light{{if .Ethstats}} --ethstats='{{.Ethstats}}'{{end}} --bootnodes={{.BootnodesFlat}}</pre>
 										</p>
 										<br/>
-										<p>You can download Gbbq from <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">https://gbbq.ethereum.org/downloads/</a>.</p>
+										<p>You can download Gbbq from <a href="https://geth.ethereum.org/downloads/" target="about:blank">https://geth.ethereum.org/downloads/</a>.</p>
 									</div>
 								</div>
 							</div>
@@ -205,10 +205,10 @@ var dashboardContent = `
 										<p>Under the hood the wallet is backed by a baboqoo full node, meaning that a mid range machine is assumed. Similarly, synchronization is based on <strong>fast-sync</strong>, which will download all blockchain data from the network and make it available to the wallet. Light nodes cannot currently fully back the wallet, but it's a target actively pursued.</p>
 										<br/>
 										<p>To connect with the Baboqoo Wallet, you'll need to initialize your private network first via Gbbq as the wallet does not currently support calling Gbbq directly. To initialize your local chain, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and run:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
 										</p>
 										<p>With your local chain initialized, you can start the Baboqoo Wallet:
-											<pre>baboqoowallet --rpc $HOME/.{{.Network}}/gbbq.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFlat}}</pre>
+											<pre>baboqoowallet --rpc $HOME/.{{.Network}}/geth.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFlat}}</pre>
 										<p>
 										<br/>
 										<p>You can download the Baboqoo Wallet from <a href="https://github.com/baboqoo/mist/releases" target="about:blank">https://github.com/baboqoo/mist/releases</a>.</p>
@@ -226,10 +226,10 @@ var dashboardContent = `
 										<p>Under the hood the browser is backed by a baboqoo full node, meaning that a mid range machine is assumed. Similarly, synchronization is based on <strong>fast-sync</strong>, which will download all blockchain data from the network and make it available to the wallet. Light nodes cannot currently fully back the wallet, but it's a target actively pursued.</p>
 										<br/>
 										<p>To connect with the Mist browser, you'll need to initialize your private network first via Gbbq as Mist does not currently support calling Gbbq directly. To initialize your local chain, download <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> and run:
-											<pre>gbbq --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
+											<pre>geth --datadir=$HOME/.{{.Network}} init {{.GbbqGenesis}}</pre>
 										</p>
 										<p>With your local chain initialized, you can start Mist:
-											<pre>mist --rpc $HOME/.{{.Network}}/gbbq.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFlat}}</pre>
+											<pre>mist --rpc $HOME/.{{.Network}}/geth.ipc --node-networkid={{.NetworkID}} --node-datadir=$HOME/.{{.Network}}{{if .Ethstats}} --node-ethstats='{{.Ethstats}}'{{end}} --node-bootnodes={{.BootnodesFlat}}</pre>
 										<p>
 										<br/>
 										<p>You can download the Mist browser from <a href="https://github.com/baboqoo/mist/releases" target="about:blank">https://github.com/baboqoo/mist/releases</a>.</p>
@@ -258,8 +258,8 @@ var dashboardContent = `
 										<br/>
 										<p>The stable Android archives are distributed via Maven Central, and the develop snapshots via the Sonatype repositories. Before proceeding, please ensure you have a recent version configured in your Android project. You can find details in <a href="https://github.com/babyqoo/baboqoo/wiki/Mobile:-Introduction#android-archive" target="about:blank">Mobile: Introduction &ndash; Android archive</a>.
 										<p>Before connecting to the Baboqoo network, download the <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> genesis json file and either store it in your Android project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
-										<p>Inside your Java code you can now import the gbbq archive and connect to Baboqoo:
-											<pre>import org.baboqoo.gbbq.*;</pre>
+										<p>Inside your Java code you can now import the geth archive and connect to Baboqoo:
+											<pre>import org.baboqoo.geth.*;</pre>
 <pre>
 Enodes bootnodes = new Enodes();{{range .Bootnodes}}
 bootnodes.append(new Enode("{{.}}"));{{end}}
@@ -289,7 +289,7 @@ node.start();
 										<br/>
 										<p>Both stable and develop builds of the iOS framework are available via CocoaPods. Before proceeding, please ensure you have a recent version configured in your iOS project. You can find details in <a href="https://github.com/babyqoo/baboqoo/wiki/Mobile:-Introduction#ios-framework" target="about:blank">Mobile: Introduction &ndash; iOS framework</a>.
 										<p>Before connecting to the Baboqoo network, download the <a href="/{{.GbbqGenesis}}"><code>{{.GbbqGenesis}}</code></a> genesis json file and either store it in your iOS project as a resource file you can access, or save it as a string in a variable. You're going to need to to initialize your client.</p>
-										<p>Inside your Swift code you can now import the gbbq framework and connect to Baboqoo (ObjC should be analogous):
+										<p>Inside your Swift code you can now import the geth framework and connect to Baboqoo (ObjC should be analogous):
 											<pre>import Gbbq</pre>
 <pre>
 var error: NSError?
@@ -419,7 +419,7 @@ try! node?.start();
 										<p>Puppeth is a tool to aid you in creating a new Baboqoo network down to the genesis block, bootnodes, signers, ethstats server, crypto faucet, wallet browsers, block explorer, dashboard and more; without the hassle that it would normally entail to manually configure all these services one by one.</p>
 										<p>Puppeth uses ssh to dial in to remote servers, and builds its network components out of docker containers using docker-compose. The user is guided through the process via a command line wizard that does the heavy lifting and topology configuration automatically behind the scenes.</p>
 										<br/>
-										<p>Puppeth is distributed as part of the <a href="https://gbbq.ethereum.org/downloads/" target="about:blank">Gbbq &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/babyqoo/baboqoo/cmd/puppeth</pre></p>
+										<p>Puppeth is distributed as part of the <a href="https://geth.ethereum.org/downloads/" target="about:blank">Gbbq &amp; Tools</a> bundles, but can also be installed separately via:<pre>go get github.com/babyqoo/baboqoo/cmd/puppeth</pre></p>
 										<br/>
 										<p><em>Copyright 2017. The baboqoo Authors.</em></p>
 									</div>
@@ -445,7 +445,7 @@ try! node?.start();
 				window.location.hash = hash;
 
 				// Fade out all possible pages (yes, ugly, no, don't care)
-				$("#gbbq").fadeOut(300)
+				$("#geth").fadeOut(300)
 				$("#mist").fadeOut(300)
 				$("#mobile").fadeOut(300)
 				$("#other").fadeOut(300)

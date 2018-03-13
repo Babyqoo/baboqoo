@@ -22,7 +22,7 @@ Section "Uninstall"
   SimpleFC::AdvRemoveRule "Gbbq UDP discovery (UDP:30303)"
 
   # Remove IPC endpoint (https://github.com/baboqoo/EIPs/issues/147)
-  ${un.EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gbbq.ipc"
+  ${un.EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\geth.ipc"
 
   # Remove install directory from PATH
   Push "$INSTDIR"

@@ -14,7 +14,7 @@
 // You should have received a copy of the GNU Lesser General Public License
 // along with the baboqoo library. If not, see <http://www.gnu.org/licenses/>.
 
-// Package gbbq contains the simplified mobile APIs to baboqoo.
+// Package geth contains the simplified mobile APIs to baboqoo.
 //
 // The scope of this package is *not* to allow writing a custom Baboqoo client
 // with pieces plucked from baboqoo, rather to allow writing native dapps on
@@ -58,4 +58,4 @@
 // Note, a panic *cannot* cross over language boundaries, instead will result in
 // an undebuggable SEGFAULT in the process. For error handling only ever use error
 // returns, which may be the only or the second return.
-package gbbq
+package geth

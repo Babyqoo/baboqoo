@@ -1,4 +1,4 @@
-Name "gbbq ${MAJORVERSION}.${MINORVERSION}.${BUILDVERSION}" # VERSION variables set through command line arguments
+Name "geth ${MAJORVERSION}.${MINORVERSION}.${BUILDVERSION}" # VERSION variables set through command line arguments
 InstallDir "$InstDir"
 OutFile "${OUTPUTFILE}" # set through command line arguments
 
@@ -12,15 +12,15 @@ PageEx license
   LicenseData {{.License}}
 PageExEnd
 
-# Install gbbq binary
+# Install geth binary
 Section "Gbbq" GETH_IDX
   SetOutPath $INSTDIR
   file {{.Gbbq}}
 
   # Create start menu launcher
   createDirectory "$SMPROGRAMS\${APPNAME}"
-  createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\gbbq.exe" "--fast" "--cache=512"
-  createShortCut "$SMPROGRAMS\${APPNAME}\Attach.lnk" "$INSTDIR\gbbq.exe" "attach" "" ""
+  createShortCut "$SMPROGRAMS\${APPNAME}\${APPNAME}.lnk" "$INSTDIR\geth.exe" "--fast" "--cache=512"
+  createShortCut "$SMPROGRAMS\${APPNAME}\Attach.lnk" "$INSTDIR\geth.exe" "attach" "" ""
   createShortCut "$SMPROGRAMS\${APPNAME}\Uninstall.lnk" "$INSTDIR\uninstall.exe" "" "" ""
 
   # Firewall - remove rules (if exists)
@@ -29,13 +29,13 @@ Section "Gbbq" GETH_IDX
   SimpleFC::AdvRemoveRule "Gbbq UDP discovery (UDP:30303)"
 
   # Firewall - add rules
-  SimpleFC::AdvAddRule "Gbbq incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\gbbq.exe" "" "" "Baboqoo" 30303 "" "" ""
-  SimpleFC::AdvAddRule "Gbbq outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\gbbq.exe" "" "" "Baboqoo" "" 30303 "" ""
-  SimpleFC::AdvAddRule "Gbbq UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\gbbq.exe" "" "" "Baboqoo" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Gbbq incoming peers (TCP:30303)" ""  6 1 1 2147483647 1 "$INSTDIR\geth.exe" "" "" "Baboqoo" 30303 "" "" ""
+  SimpleFC::AdvAddRule "Gbbq outgoing peers (TCP:30303)" ""  6 2 1 2147483647 1 "$INSTDIR\geth.exe" "" "" "Baboqoo" "" 30303 "" ""
+  SimpleFC::AdvAddRule "Gbbq UDP discovery (UDP:30303)" "" 17 2 1 2147483647 1 "$INSTDIR\geth.exe" "" "" "Baboqoo" "" 30303 "" ""
 
   # Set default IPC endpoint (https://github.com/baboqoo/EIPs/issues/147)
-  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\gbbq.ipc"
-  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "A" "HKLM" "\\.\pipe\gbbq.ipc"
+  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "R" "HKLM" "\\.\pipe\geth.ipc"
+  ${EnvVarUpdate} $0 "ETHEREUM_SOCKET" "A" "HKLM" "\\.\pipe\geth.ipc"
 
   # Add instdir to PATH
   Push "$INSTDIR"

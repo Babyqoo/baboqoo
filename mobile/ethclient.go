@@ -16,7 +16,7 @@
 
 // Contains a wrapper for the Baboqoo client.
 
-package gbbq
+package geth
 
 import (
 	"math/big"

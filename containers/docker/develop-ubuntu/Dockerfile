@@ -6,12 +6,12 @@ RUN \
   apt-get update && apt-get upgrade -q -y && \
   apt-get install -y --no-install-recommends golang-1.9 git make gcc libc-dev ca-certificates && \
   git clone --depth 1 https://github.com/babyqoo/baboqoo && \
-  (cd baboqoo && make gbbq) && \
-  cp baboqoo/build/bin/gbbq /gbbq && \
+  (cd baboqoo && make geth) && \
+  cp baboqoo/build/bin/geth /geth && \
   apt-get remove -y golang-1.9 git make gcc libc-dev && apt autoremove -y && apt-get clean && \
   rm -rf /baboqoo
 
 EXPOSE 8545
 EXPOSE 30303
 
-ENTRYPOINT ["/gbbq"]
+ENTRYPOINT ["/geth"]

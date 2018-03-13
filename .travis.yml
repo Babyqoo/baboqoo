@@ -67,7 +67,7 @@ matrix:
             - fakeroot
       script:
         # Build for the primary platforms that Trusty can manage
-        - go run build/ci.go debsrc -signer "Go Baboqoo Linux Builder <gbbq-ci@ethereum.org>" -upload ppa:baboqoo/baboqoo
+        - go run build/ci.go debsrc -signer "Go Baboqoo Linux Builder <geth-ci@ethereum.org>" -upload ppa:baboqoo/baboqoo
         - go run build/ci.go install
         - go run build/ci.go archive -type tar -signer LINUX_SIGNING_KEY -upload gbbqstore/builds
         - go run build/ci.go install -arch 386

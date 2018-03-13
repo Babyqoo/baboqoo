@@ -48,7 +48,7 @@ const (
 // all registered services.
 type Config struct {
 	// Name sets the instance name of the node. It must not contain the / character and is
-	// used in the devp2p node identifier. The instance name of gbbq is "gbbq". If no
+	// used in the devp2p node identifier. The instance name of geth is "geth". If no
 	// value is specified, the basename of the current executable is used.
 	Name string `toml:"-"`
 
@@ -228,7 +228,7 @@ func DefaultWSEndpoint() string {
 func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Gbbq", keep that.
-	if name == "gbbq" || name == "gbbq-testnet" {
+	if name == "geth" || name == "geth-testnet" {
 		name = "Gbbq"
 	}
 	if c.UserIdent != "" {
@@ -253,7 +253,7 @@ func (c *Config) name() string {
 	return c.Name
 }
 
-// These resources are resolved differently for "gbbq" instances.
+// These resources are resolved differently for "geth" instances.
 var isOldGbbqResource = map[string]bool{
 	"chaindata":          true,
 	"nodes":              true,
@@ -271,10 +271,10 @@ func (c *Config) resolvePath(path string) string {
 		return ""
 	}
 	// Backwards-compatibility: ensure that data directory files created
-	// by gbbq 1.4 are used if they exist.
-	if c.name() == "gbbq" && isOldGbbqResource[path] {
+	// by geth 1.4 are used if they exist.
+	if c.name() == "geth" && isOldGbbqResource[path] {
 		oldpath := ""
-		if c.Name == "gbbq" {
+		if c.Name == "geth" {
 			oldpath = filepath.Join(c.DataDir, path)
 		}
 		if oldpath != "" && common.FileExist(oldpath) {

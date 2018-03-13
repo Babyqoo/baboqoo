@@ -30,7 +30,7 @@
 CRCCheck on
 
 !define GROUPNAME "Baboqoo"
-!define APPNAME "Gbbq"
+!define APPNAME "Geth"
 !define DESCRIPTION "Official Go implementation of the Baboqoo protocol"
 !addplugindir .\
 
